@@ -14,12 +14,17 @@ Simple browser games for Indian kids.
 The repo has a static GitHub Pages MVP with:
 
 1. landing page at `index.html`
-2. Great People quiz at `games/quiz/`
-3. Symbols quiz at `games/quiz/symbols/`
-4. Festival quiz at `games/quiz/festivals/`
-5. hidden objects game at `games/hidden-objects/`
-6. Hindu symbol tile puzzles at `games/jigsaw/`
-7. Hindu Symbols hub at `games/symbols/`
+2. quiz library at `games/quiz/`
+3. Great People quiz at `games/quiz/great-people/`
+4. Symbols quiz at `games/quiz/symbols/`
+5. Festival quiz at `games/quiz/festivals/`
+6. Ramayana quiz at `games/quiz/ramayana/`
+7. Mahabharata quiz at `games/quiz/mahabharata/`
+8. Values quiz at `games/quiz/values/`
+9. Sanskrit Words quiz at `games/quiz/sanskrit/`
+10. hidden objects game at `games/hidden-objects/`
+11. Hindu symbol tile puzzles at `games/jigsaw/`
+12. Hindu Symbols hub at `games/symbols/`
 
 ## MVP direction
 
@@ -55,9 +60,14 @@ Avoid heavy frameworks unless there is a strong need.
 - `assets/css/main.css`: shared site and game styles
 - `assets/js/`: game scripts
 - `assets/images/`: local SVG game art
-- `games/quiz/`: Great People quiz
+- `games/quiz/`: quiz library
+- `games/quiz/great-people/`: Great People quiz
 - `games/quiz/symbols/`: Hindu Symbols quiz
 - `games/quiz/festivals/`: Festival quiz
+- `games/quiz/ramayana/`: Ramayana quiz
+- `games/quiz/mahabharata/`: Mahabharata quiz
+- `games/quiz/values/`: Values quiz
+- `games/quiz/sanskrit/`: Sanskrit Words quiz
 - `games/hidden-objects/`: hidden objects scene
 - `games/jigsaw/`: Hindu symbol tile puzzles
 - `games/symbols/`: symbols activity hub

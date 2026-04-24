@@ -134,6 +134,146 @@ const quizSets = {
         success: "Yes. Festivals are a good time for kindness and gratitude."
       }
     ]
+  },
+  ramayana: {
+    storageKey: "balabharati-ramayana-best",
+    questions: [
+      {
+        question: "Who is the prince of Ayodhya in the Ramayana?",
+        choices: ["Rama", "Arjuna", "Bhima", "Chanakya"],
+        answer: "Rama",
+        success: "Correct. Rama is the prince of Ayodhya and is remembered for dharma."
+      },
+      {
+        question: "Who went with Rama to the forest?",
+        choices: ["Sita and Lakshmana", "Krishna and Arjuna", "Akbar and Birbal", "Chetak and Pratap"],
+        answer: "Sita and Lakshmana",
+        success: "Yes. Sita and Lakshmana went with Rama during the forest years."
+      },
+      {
+        question: "Who is famous for devotion to Rama?",
+        choices: ["Hanuman", "Duryodhana", "Kansa", "Ravana"],
+        answer: "Hanuman",
+        success: "Right. Hanuman is remembered for strength, devotion, and service."
+      },
+      {
+        question: "What did Rama use to cross toward Lanka with help from others?",
+        choices: ["A bridge", "A spaceship", "A tunnel", "A snow road"],
+        answer: "A bridge",
+        success: "Correct. The story tells of a bridge built with teamwork."
+      },
+      {
+        question: "Which value is Rama often connected with?",
+        choices: ["Dharma", "Cheating", "Laziness", "Rudeness"],
+        answer: "Dharma",
+        success: "Good. Dharma means doing what is right."
+      }
+    ]
+  },
+  mahabharata: {
+    storageKey: "balabharati-mahabharata-best",
+    questions: [
+      {
+        question: "Who guided Arjuna in the Bhagavad Gita?",
+        choices: ["Krishna", "Hanuman", "Valmiki", "Tenali Raman"],
+        answer: "Krishna",
+        success: "Correct. Krishna guided Arjuna with wisdom about duty and courage."
+      },
+      {
+        question: "Which Pandava was famous for archery?",
+        choices: ["Arjuna", "Nakula", "Sahadeva", "Bhima"],
+        answer: "Arjuna",
+        success: "Yes. Arjuna is remembered as a skilled archer."
+      },
+      {
+        question: "Which Pandava was very strong?",
+        choices: ["Bhima", "Yudhishthira", "Arjuna", "Nakula"],
+        answer: "Bhima",
+        success: "Right. Bhima is remembered for great strength."
+      },
+      {
+        question: "What does the Mahabharata often teach us to think about?",
+        choices: ["Right choices", "Only winning games", "Being unkind", "Ignoring family"],
+        answer: "Right choices",
+        success: "Correct. The Mahabharata has many stories about choices and responsibility."
+      },
+      {
+        question: "What should we do when we feel confused like Arjuna?",
+        choices: ["Ask for wise guidance", "Give up immediately", "Shout at everyone", "Hide the truth"],
+        answer: "Ask for wise guidance",
+        success: "Good. Asking a wise person can help us choose better."
+      }
+    ]
+  },
+  values: {
+    storageKey: "balabharati-values-best",
+    questions: [
+      {
+        question: "If a friend drops their books, what is a kind thing to do?",
+        choices: ["Help pick them up", "Laugh loudly", "Walk away", "Hide a book"],
+        answer: "Help pick them up",
+        success: "Correct. Helping is a kind and strong action."
+      },
+      {
+        question: "What should you say when someone helps you?",
+        choices: ["Thank you", "Go away", "Nothing ever", "That was bad"],
+        answer: "Thank you",
+        success: "Yes. Saying thank you shows gratitude."
+      },
+      {
+        question: "What does satya mean?",
+        choices: ["Truth", "Noise", "Hurry", "Anger"],
+        answer: "Truth",
+        success: "Right. Satya means truth."
+      },
+      {
+        question: "What is a respectful way to listen?",
+        choices: ["Let the person finish", "Interrupt every word", "Make faces", "Run away"],
+        answer: "Let the person finish",
+        success: "Correct. Good listening shows respect."
+      },
+      {
+        question: "What is courage?",
+        choices: ["Doing the right thing even when it is hard", "Never asking questions", "Being rude", "Breaking rules"],
+        answer: "Doing the right thing even when it is hard",
+        success: "Good. Courage and kindness can go together."
+      }
+    ]
+  },
+  sanskrit: {
+    storageKey: "balabharati-sanskrit-best",
+    questions: [
+      {
+        question: "What does namaste mean in a simple greeting?",
+        choices: ["A respectful hello", "A type of car", "A rainy day", "A sharp pencil"],
+        answer: "A respectful hello",
+        success: "Correct. Namaste is a respectful greeting."
+      },
+      {
+        question: "What does shanti mean?",
+        choices: ["Peace", "Speed", "Noise", "Heat"],
+        answer: "Peace",
+        success: "Yes. Shanti means peace."
+      },
+      {
+        question: "What does dharma mean in a simple way?",
+        choices: ["Doing what is right", "Eating quickly", "Sleeping late", "Winning every time"],
+        answer: "Doing what is right",
+        success: "Right. Dharma can mean right duty or right action."
+      },
+      {
+        question: "What does vidya mean?",
+        choices: ["Knowledge", "A toy", "A cloud", "A shoe"],
+        answer: "Knowledge",
+        success: "Correct. Vidya means knowledge or learning."
+      },
+      {
+        question: "What does seva mean?",
+        choices: ["Service", "A race", "A color", "A drum"],
+        answer: "Service",
+        success: "Good. Seva means service or helping with care."
+      }
+    ]
   }
 };
 

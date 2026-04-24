@@ -8,9 +8,14 @@ Current truth:
 - GitHub Pages is configured from `main` branch root
 - current site is now a static MVP with:
   - landing page
+  - quiz library
   - Great People quiz
   - Symbols quiz
   - Festival quiz
+  - Ramayana quiz
+  - Mahabharata quiz
+  - Values quiz
+  - Sanskrit Words quiz
   - hidden objects game
   - Hindu symbol tile puzzles
   - Hindu Symbols hub
@@ -58,3 +63,4 @@ Progress:
 - used local SVG art so the site has no external asset dependency
 - added extra quiz packs for symbols and festivals
 - expanded jigsaw into lotus, diya, shankha, and trishul puzzles
+- added a quiz hub plus Ramayana, Mahabharata, Values, and Sanskrit Words packs
