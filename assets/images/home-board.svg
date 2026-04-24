@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 360" role="img" aria-labelledby="title desc">
+  <title id="title">BalaBharati game board</title>
+  <desc id="desc">A bright board with quiz, search, and puzzle panels.</desc>
+  <rect width="420" height="360" fill="#fff8df"/>
+  <rect x="30" y="34" width="360" height="292" rx="18" fill="#ffffff" stroke="#1f2f3a" stroke-width="6"/>
+  <rect x="58" y="66" width="132" height="96" rx="12" fill="#e46f2e"/>
+  <rect x="230" y="66" width="132" height="96" rx="12" fill="#087c7c"/>
+  <rect x="58" y="198" width="132" height="96" rx="12" fill="#3d7d3b"/>
+  <rect x="230" y="198" width="132" height="96" rx="12" fill="#f0bd34"/>
+  <text x="124" y="126" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="900" fill="#ffffff">Q</text>
+  <text x="296" y="126" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="900" fill="#ffffff">F</text>
+  <text x="124" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="900" fill="#ffffff">P</text>
+  <circle cx="296" cy="247" r="29" fill="#ffffff"/>
+  <path d="M296 218 C318 238 318 260 296 282 C274 260 274 238 296 218Z" fill="#c84034"/>
+  <path d="M270 246 C287 238 305 238 322 246 C309 256 283 256 270 246Z" fill="#e46f2e"/>
+  <path d="M296 247 L296 278" stroke="#1f2f3a" stroke-width="5" stroke-linecap="round"/>
+</svg>

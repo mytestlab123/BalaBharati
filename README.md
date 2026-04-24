@@ -1,26 +1,63 @@
 # BalaBharati
 
-Simple GitHub Pages Q&A game for kids.
+Simple browser games for Indian kids.
 
 ## Purpose
 
-- host a small colorful question-and-answer game
-- keep the repo static and simple
-- publish directly with GitHub Pages from the `main` branch
+- host a small static site on GitHub Pages
+- make simple fun games for Indian / Hindu kids
+- keep the repo easy to run locally and easy to extend later
+- support family, community, and Zoom-style sessions
+
+## Current state
+
+The repo has a static GitHub Pages MVP with:
+
+1. landing page at `index.html`
+2. Great People quiz at `games/quiz/`
+3. hidden objects game at `games/hidden-objects/`
+4. lotus tile puzzle at `games/jigsaw/`
+
+## MVP direction
+
+Design for:
+
+- age `6-12`
+- low reading load
+- large buttons
+- clear feedback
+- simple interaction
+- warm Indian cultural grounding
+
+Keep the tone:
+
+- child-friendly
+- respectful
+- proud but not aggressive
+- simple and playful
+
+## Tech rules
+
+- plain HTML
+- plain CSS
+- plain JavaScript
+- static files only
+- GitHub Pages friendly
+
+Avoid heavy frameworks unless there is a strong need.
 
 ## Repo layout
 
-- `index.html`: app shell
-- `style.css`: page styling
-- `script.js`: quiz logic and question set
-- `AGENTS.md`: repo rules
-- `AGENTS.override.md`: local/private override copied from `~/.codex`
-- `PLANS.md`: active plan
-- `docs/ROADMAP.md`: next improvements
+- `index.html`: landing page with game links
+- `assets/css/main.css`: shared site and game styles
+- `assets/js/`: game scripts
+- `assets/images/`: local SVG game art
+- `games/quiz/`: Great People quiz
+- `games/hidden-objects/`: hidden objects scene
+- `games/jigsaw/`: lotus tile puzzle
+- `docs/ROADMAP.md`: future game ideas
 
 ## Local preview
-
-Open `index.html` in a browser, or run a simple static server:
 
 ```bash
 cd /home/dev/git/BalaBharati
@@ -31,15 +68,25 @@ Then open `http://127.0.0.1:8010`.
 
 ## GitHub Pages
 
-This repo is meant to publish directly from:
+This repo is published from:
 
 - branch: `main`
 - folder: `/ (root)`
 
-## First version
+Public URL target:
 
-- one question at a time
-- multiple-choice answers
-- instant feedback
-- score tracking
-- play again button
+- `https://mytestlab123.github.io/BalaBharati/`
+
+## Repo notes
+
+- `AGENTS.md`: repo rules and build direction
+- `PLANS.md`: active MVP task
+- `page.md`: detailed build brief for the next Codex session
+- `docs/ROADMAP.md`: future game ideas
+
+## Build philosophy
+
+- build MVP
+- improve slowly
+- do not overbuild
+- reuse or download assets if custom image generation would take too long

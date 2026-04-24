@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lotus Tile Puzzle | BalaBharati</title>
+    <meta name="description" content="A simple lotus sliding tile puzzle for kids">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-mark">BB</span>
+        <span>BalaBharati</span>
+      </a>
+      <nav class="top-nav" aria-label="Games">
+        <a href="../quiz/">Quiz</a>
+        <a href="../hidden-objects/">Find</a>
+        <a href="../jigsaw/">Puzzle</a>
+      </nav>
+    </header>
+
+    <main class="game-shell">
+      <section class="game-header">
+        <p class="eyebrow">Game 3</p>
+        <h1>Lotus Tile Puzzle</h1>
+        <p class="lead">Move tiles into the empty space until the lotus picture is complete.</p>
+        <div class="status-row" aria-live="polite">
+          <div class="pill">Moves <span id="move-count">0</span></div>
+        </div>
+      </section>
+
+      <section class="play-panel">
+        <div class="puzzle-layout">
+          <div>
+            <div id="puzzle-board" class="puzzle-board" aria-label="Sliding tile puzzle"></div>
+            <div id="message" class="message-box">Tap a tile next to the empty space.</div>
+            <div class="action-row">
+              <button id="shuffle-button" class="control-button primary" type="button">Shuffle</button>
+              <button id="reset-button" class="control-button secondary" type="button">Reset</button>
+              <a class="button secondary" href="../../">Home</a>
+            </div>
+          </div>
+
+          <aside class="preview-card" aria-label="Puzzle preview">
+            <p class="eyebrow">Picture goal</p>
+            <img src="../../assets/images/lotus-puzzle.svg" alt="Completed lotus picture">
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <script src="../../assets/js/jigsaw.js"></script>
+  </body>
+</html>

@@ -1,55 +1,58 @@
 const questions = [
   {
-    question: "Which color is the sky on a clear day?",
-    choices: ["Blue", "Green", "Orange", "Pink"],
-    answer: "Blue",
-    success: "Yes! The sky looks blue on a clear day."
+    question: "Who built a strong Swarajya with forts and brave planning?",
+    choices: [
+      "Chhatrapati Shivaji Maharaj",
+      "Kalidasa",
+      "Aryabhata",
+      "Rani Durgavati"
+    ],
+    answer: "Chhatrapati Shivaji Maharaj",
+    success: "Correct. Shivaji Maharaj is remembered for courage, smart forts, and care for his people."
   },
   {
-    question: "How many legs does a cat have?",
-    choices: ["Two", "Three", "Four", "Six"],
-    answer: "Four",
-    success: "Correct! A cat has four legs."
+    question: "Which brave ruler is remembered with his loyal horse Chetak?",
+    choices: [
+      "Maharana Pratap",
+      "Guru Gobind Singh",
+      "Birbal",
+      "Swami Vivekananda"
+    ],
+    answer: "Maharana Pratap",
+    success: "Yes. Maharana Pratap is remembered for courage and never giving up."
   },
   {
-    question: "What comes after 5?",
-    choices: ["4", "6", "7", "8"],
-    answer: "6",
-    success: "Great job! 6 comes after 5."
+    question: "Who was the tenth Sikh Guru?",
+    choices: [
+      "Guru Gobind Singh",
+      "Chanakya",
+      "Tansen",
+      "Raja Raja Chola"
+    ],
+    answer: "Guru Gobind Singh",
+    success: "Right. Guru Gobind Singh is remembered for bravery, faith, and service."
   },
   {
-    question: "Which animal says moo?",
-    choices: ["Dog", "Cow", "Cat", "Bird"],
-    answer: "Cow",
-    success: "Correct! A cow says moo."
+    question: "What is one quality all three heroes showed?",
+    choices: ["Courage", "Laziness", "Fear of work", "Unkindness"],
+    answer: "Courage",
+    success: "Great. Courage means doing the right thing even when it is hard."
   },
   {
-    question: "Which shape has three sides?",
-    choices: ["Circle", "Square", "Triangle", "Rectangle"],
-    answer: "Triangle",
-    success: "Nice! A triangle has three sides."
-  },
-  {
-    question: "Which one is a fruit?",
-    choices: ["Apple", "Car", "Pencil", "Chair"],
-    answer: "Apple",
-    success: "Correct! Apple is a fruit."
-  },
-  {
-    question: "How many days are in one week?",
-    choices: ["5", "6", "7", "8"],
-    answer: "7",
-    success: "Right! A week has 7 days."
-  },
-  {
-    question: "What do we use to read books?",
-    choices: ["Eyes", "Shoes", "Ears only", "Spoons"],
-    answer: "Eyes",
-    success: "Yes! We use our eyes to read books."
+    question: "What should we do when we learn about great people?",
+    choices: [
+      "Learn good values from them",
+      "Fight with friends",
+      "Stop asking questions",
+      "Ignore history"
+    ],
+    answer: "Learn good values from them",
+    success: "Correct. We can learn courage, kindness, discipline, and service."
   }
 ];
 
 const questionNumberEl = document.getElementById("question-number");
+const questionTotalEl = document.getElementById("question-total");
 const scoreEl = document.getElementById("score");
 const bestScoreEl = document.getElementById("best-score");
 const questionTextEl = document.getElementById("question-text");
@@ -61,8 +64,9 @@ const restartButton = document.getElementById("restart-button");
 let currentIndex = 0;
 let score = 0;
 let answered = false;
-let bestScore = Number(localStorage.getItem("bala-bharati-best-score") || "0");
+let bestScore = Number(localStorage.getItem("balabharati-great-people-best") || "0");
 
+questionTotalEl.textContent = String(questions.length);
 bestScoreEl.textContent = String(bestScore);
 
 function updateFeedback(type, message) {
@@ -78,7 +82,7 @@ function renderQuestion() {
   scoreEl.textContent = String(score);
   questionTextEl.textContent = current.question;
   answersEl.innerHTML = "";
-  updateFeedback("neutral", "Choose the best answer.");
+  updateFeedback("", "Choose the best answer.");
 
   current.choices.forEach((choice) => {
     const button = document.createElement("button");
@@ -113,7 +117,7 @@ function handleAnswer(button, choice) {
     updateFeedback("good", current.success);
   } else {
     button.classList.add("wrong");
-    updateFeedback("bad", `Oops. The right answer is ${current.answer}.`);
+    updateFeedback("bad", `Good try. The answer is ${current.answer}.`);
   }
 
   nextButton.disabled = false;
@@ -122,7 +126,7 @@ function handleAnswer(button, choice) {
 function saveBestScore() {
   if (score > bestScore) {
     bestScore = score;
-    localStorage.setItem("bala-bharati-best-score", String(bestScore));
+    localStorage.setItem("balabharati-great-people-best", String(bestScore));
     bestScoreEl.textContent = String(bestScore);
   }
 }
@@ -137,11 +141,11 @@ function nextQuestion() {
   if (currentIndex >= questions.length) {
     saveBestScore();
     questionNumberEl.textContent = String(questions.length);
-    questionTextEl.textContent = "Game finished!";
+    questionTextEl.textContent = "Quiz complete!";
     answersEl.innerHTML = "";
     updateFeedback(
       "good",
-      `You scored ${score} out of ${questions.length}. Tap Play Again to start over.`
+      `You scored ${score} out of ${questions.length}. Tap Play Again to try once more.`
     );
     nextButton.disabled = true;
     return;

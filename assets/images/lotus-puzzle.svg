@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Lotus puzzle image</title>
+  <desc id="desc">A simple lotus and rangoli picture for a tile puzzle.</desc>
+  <rect width="600" height="600" fill="#fff7df"/>
+  <circle cx="300" cy="300" r="242" fill="#ffffff" stroke="#1f2f3a" stroke-width="10"/>
+  <circle cx="300" cy="300" r="192" fill="#f0bd34" opacity="0.35"/>
+  <path d="M300 112 C354 174 354 236 300 298 C246 236 246 174 300 112Z" fill="#c84034" stroke="#1f2f3a" stroke-width="8"/>
+  <path d="M205 170 C282 194 322 250 300 330 C222 306 182 250 205 170Z" fill="#f7a5a0" stroke="#1f2f3a" stroke-width="8"/>
+  <path d="M395 170 C318 194 278 250 300 330 C378 306 418 250 395 170Z" fill="#f7a5a0" stroke="#1f2f3a" stroke-width="8"/>
+  <path d="M158 284 C236 268 292 300 316 378 C238 394 182 362 158 284Z" fill="#e46f2e" stroke="#1f2f3a" stroke-width="8"/>
+  <path d="M442 284 C364 268 308 300 284 378 C362 394 418 362 442 284Z" fill="#e46f2e" stroke="#1f2f3a" stroke-width="8"/>
+  <path d="M220 410 C260 360 340 360 380 410 C340 448 260 448 220 410Z" fill="#087c7c" stroke="#1f2f3a" stroke-width="8"/>
+  <path d="M300 298 L300 454" stroke="#1f2f3a" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="300" cy="300" r="38" fill="#f0bd34" stroke="#1f2f3a" stroke-width="8"/>
+  <path d="M112 300 h70 M418 300 h70 M300 112 v70 M300 418 v70" stroke="#3d7d3b" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="134" cy="134" r="22" fill="#315ca8"/>
+  <circle cx="466" cy="134" r="22" fill="#315ca8"/>
+  <circle cx="134" cy="466" r="22" fill="#315ca8"/>
+  <circle cx="466" cy="466" r="22" fill="#315ca8"/>
+</svg>

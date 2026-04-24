@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hidden Objects | BalaBharati</title>
+    <meta name="description" content="Find five objects in a simple Indian courtyard scene">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-mark">BB</span>
+        <span>BalaBharati</span>
+      </a>
+      <nav class="top-nav" aria-label="Games">
+        <a href="../quiz/">Quiz</a>
+        <a href="../hidden-objects/">Find</a>
+        <a href="../jigsaw/">Puzzle</a>
+      </nav>
+    </header>
+
+    <main class="game-shell">
+      <section class="game-header">
+        <p class="eyebrow">Game 2</p>
+        <h1>Hidden Objects</h1>
+        <p class="lead">Find the bell, diya, lotus, peacock feather, and modak in the courtyard.</p>
+        <div class="status-row" aria-live="polite">
+          <div class="pill">Found <span id="found-count">0</span>/<span id="object-total">5</span></div>
+        </div>
+      </section>
+
+      <section class="play-panel">
+        <div class="scene-wrap">
+          <img src="../../assets/images/courtyard.svg" alt="Temple courtyard scene">
+          <button class="hotspot" type="button" data-item="bell" aria-label="Bell">Bell</button>
+          <button class="hotspot" type="button" data-item="diya" aria-label="Diya">Diya</button>
+          <button class="hotspot" type="button" data-item="lotus" aria-label="Lotus">Lotus</button>
+          <button class="hotspot" type="button" data-item="peacock feather" aria-label="Peacock feather">Feather</button>
+          <button class="hotspot" type="button" data-item="modak" aria-label="Modak">Modak</button>
+        </div>
+
+        <div id="object-list" class="object-list" aria-label="Objects to find"></div>
+        <div id="message" class="message-box">Tap each object when you spot it.</div>
+
+        <div class="action-row">
+          <button id="replay-button" class="control-button primary" type="button">Replay</button>
+          <a class="button secondary" href="../../">Home</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="../../assets/js/hidden-objects.js"></script>
+  </body>
+</html>

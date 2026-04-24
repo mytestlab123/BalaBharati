@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Temple courtyard scene</title>
+  <desc id="desc">A simple Indian festive courtyard with places to find a bell, diya, lotus, peacock feather, and modak.</desc>
+  <rect width="900" height="520" fill="#f9f1d9"/>
+  <rect y="330" width="900" height="190" fill="#e6c98a"/>
+  <path d="M90 330 H810 L700 145 H200 Z" fill="#ffffff" stroke="#1f2f3a" stroke-width="6"/>
+  <path d="M180 150 H720 L655 75 H245 Z" fill="#e46f2e" stroke="#1f2f3a" stroke-width="6"/>
+  <rect x="250" y="190" width="400" height="140" fill="#ffeab1" stroke="#1f2f3a" stroke-width="5"/>
+  <rect x="385" y="220" width="130" height="110" fill="#087c7c" stroke="#1f2f3a" stroke-width="5"/>
+  <path d="M450 130 v70" stroke="#1f2f3a" stroke-width="5"/>
+  <path d="M418 200 c12-42 52-42 64 0 z" fill="#f0bd34" stroke="#1f2f3a" stroke-width="5"/>
+  <rect x="152" y="350" width="48" height="62" rx="14" fill="#f0bd34" stroke="#1f2f3a" stroke-width="5"/>
+  <path d="M145 412 h62 c-12 30-50 30-62 0z" fill="#e46f2e" stroke="#1f2f3a" stroke-width="5"/>
+  <circle cx="176" cy="363" r="8" fill="#ffffff"/>
+  <path d="M392 385 c22-32 44-32 66 0 c-16 16-50 16-66 0z" fill="#c84034" stroke="#1f2f3a" stroke-width="5"/>
+  <path d="M420 355 c18 18 18 42 0 60 c-18-18-18-42 0-60z" fill="#f7a5a0" stroke="#1f2f3a" stroke-width="4"/>
+  <path d="M458 355 c18 18 18 42 0 60 c-18-18-18-42 0-60z" fill="#f7a5a0" stroke="#1f2f3a" stroke-width="4"/>
+  <path d="M674 300 c75-32 95-118 44-150 c12 46-2 89-44 150z" fill="#3d7d3b" stroke="#1f2f3a" stroke-width="5"/>
+  <ellipse cx="727" cy="150" rx="28" ry="22" fill="#315ca8" stroke="#1f2f3a" stroke-width="5"/>
+  <circle cx="727" cy="150" r="8" fill="#f0bd34"/>
+  <path d="M705 168 c-25 28-36 70-31 132" stroke="#087c7c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M705 168 c-26 30-54 52-84 66" stroke="#087c7c" stroke-width="6" stroke-linecap="round"/>
+  <path d="M750 378 c28 0 48 18 48 42 c0 18-16 34-48 34 c-32 0-48-16-48-34 c0-24 20-42 48-42z" fill="#fff0b7" stroke="#1f2f3a" stroke-width="5"/>
+  <path d="M750 382 c-10 18-2 30 0 44 c2-14 10-26 0-44z" fill="#e46f2e"/>
+  <rect x="54" y="428" width="792" height="22" rx="11" fill="#d0a960"/>
+  <circle cx="102" cy="96" r="24" fill="#f0bd34"/>
+  <circle cx="808" cy="106" r="18" fill="#f0bd34"/>
+  <path d="M72 270 h120" stroke="#3d7d3b" stroke-width="8" stroke-linecap="round"/>
+  <path d="M708 270 h120" stroke="#3d7d3b" stroke-width="8" stroke-linecap="round"/>
+</svg>
