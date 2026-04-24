@@ -3,11 +3,44 @@ const moveCountEl = document.getElementById("move-count");
 const messageEl = document.getElementById("message");
 const shuffleButton = document.getElementById("shuffle-button");
 const resetButton = document.getElementById("reset-button");
+const puzzleTitleEl = document.getElementById("puzzle-title");
+const puzzleIntroEl = document.getElementById("puzzle-intro");
+const previewImageEl = document.getElementById("preview-image");
+const symbolNoteEl = document.getElementById("symbol-note");
+const symbolChoiceButtons = [...document.querySelectorAll(".symbol-choice")];
+
+const puzzles = {
+  lotus: {
+    title: "Lotus Tile Puzzle",
+    image: "../../assets/images/lotus-puzzle.svg",
+    alt: "Completed lotus picture",
+    note: "The lotus is often used as a calm and pure symbol."
+  },
+  diya: {
+    title: "Diya Tile Puzzle",
+    image: "../../assets/images/diya-puzzle.svg",
+    alt: "Completed diya picture",
+    note: "A diya gives light and reminds us of hope and goodness."
+  },
+  shankha: {
+    title: "Shankha Tile Puzzle",
+    image: "../../assets/images/shankha-puzzle.svg",
+    alt: "Completed shankha picture",
+    note: "A shankha is a conch shell used in worship and celebration."
+  },
+  trishul: {
+    title: "Trishul Tile Puzzle",
+    image: "../../assets/images/trishul-puzzle.svg",
+    alt: "Completed trishul picture",
+    note: "The trishul is a sacred symbol linked with Lord Shiva."
+  }
+};
 
 const size = 3;
 const solvedTiles = [0, 1, 2, 3, 4, 5, 6, 7, 8];
 let tiles = [...solvedTiles];
 let moves = 0;
+let currentPuzzleKey = "lotus";
 
 function isSolved() {
   return tiles.every((tile, index) => tile === solvedTiles[index]);
@@ -31,6 +64,7 @@ function swapTiles(index, emptyIndex) {
 
 function renderBoard() {
   boardEl.innerHTML = "";
+  boardEl.style.setProperty("--puzzle-image", `url("${puzzles[currentPuzzleKey].image}")`);
 
   tiles.forEach((tile, index) => {
     const button = document.createElement("button");
@@ -68,7 +102,7 @@ function moveTile(index) {
 
   if (isSolved()) {
     messageEl.className = "message-box good";
-    messageEl.textContent = `Lotus complete in ${moves} moves.`;
+    messageEl.textContent = `${puzzles[currentPuzzleKey].title} complete in ${moves} moves.`;
   } else {
     messageEl.className = "message-box";
     messageEl.textContent = "Good move. Keep going.";
@@ -104,11 +138,32 @@ function resetBoard() {
   tiles = [...solvedTiles];
   moves = 0;
   messageEl.className = "message-box good";
-  messageEl.textContent = "This is the completed lotus picture.";
+  messageEl.textContent = `This is the completed ${puzzles[currentPuzzleKey].title.toLowerCase()}.`;
   renderBoard();
 }
+
+function choosePuzzle(key) {
+  currentPuzzleKey = puzzles[key] ? key : "lotus";
+  const puzzle = puzzles[currentPuzzleKey];
+
+  puzzleTitleEl.textContent = puzzle.title;
+  puzzleIntroEl.textContent = "Move tiles into the empty space until the picture is complete.";
+  previewImageEl.src = puzzle.image;
+  previewImageEl.alt = puzzle.alt;
+  symbolNoteEl.textContent = puzzle.note;
+
+  symbolChoiceButtons.forEach((button) => {
+    button.classList.toggle("active", button.dataset.puzzle === currentPuzzleKey);
+  });
+
+  shuffleBoard();
+}
+
+symbolChoiceButtons.forEach((button) => {
+  button.addEventListener("click", () => choosePuzzle(button.dataset.puzzle));
+});
 
 shuffleButton.addEventListener("click", shuffleBoard);
 resetButton.addEventListener("click", resetBoard);
 
-shuffleBoard();
+choosePuzzle(location.hash.replace("#", "") || "lotus");

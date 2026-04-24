@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lotus Tile Puzzle | BalaBharati</title>
-    <meta name="description" content="A simple lotus sliding tile puzzle for kids">
+    <title>Hindu Symbol Tile Puzzles | BalaBharati</title>
+    <meta name="description" content="Simple Hindu symbol sliding tile puzzles for kids">
     <link rel="stylesheet" href="../../assets/css/main.css">
   </head>
   <body>
@@ -17,20 +17,28 @@
         <a href="../quiz/">Quiz</a>
         <a href="../hidden-objects/">Find</a>
         <a href="../jigsaw/">Puzzle</a>
+        <a href="../symbols/">Symbols</a>
       </nav>
     </header>
 
     <main class="game-shell">
       <section class="game-header">
         <p class="eyebrow">Game 3</p>
-        <h1>Lotus Tile Puzzle</h1>
-        <p class="lead">Move tiles into the empty space until the lotus picture is complete.</p>
+        <h1 id="puzzle-title">Symbol Tile Puzzles</h1>
+        <p id="puzzle-intro" class="lead">Choose a symbol, then move tiles into the empty space until the picture is complete.</p>
         <div class="status-row" aria-live="polite">
           <div class="pill">Moves <span id="move-count">0</span></div>
         </div>
       </section>
 
       <section class="play-panel">
+        <div class="symbol-picker" aria-label="Choose puzzle">
+          <button class="symbol-choice active" type="button" data-puzzle="lotus">Lotus</button>
+          <button class="symbol-choice" type="button" data-puzzle="diya">Diya</button>
+          <button class="symbol-choice" type="button" data-puzzle="shankha">Shankha</button>
+          <button class="symbol-choice" type="button" data-puzzle="trishul">Trishul</button>
+        </div>
+
         <div class="puzzle-layout">
           <div>
             <div id="puzzle-board" class="puzzle-board" aria-label="Sliding tile puzzle"></div>
@@ -44,7 +52,8 @@
 
           <aside class="preview-card" aria-label="Puzzle preview">
             <p class="eyebrow">Picture goal</p>
-            <img src="../../assets/images/lotus-puzzle.svg" alt="Completed lotus picture">
+            <img id="preview-image" src="../../assets/images/lotus-puzzle.svg" alt="Completed lotus picture">
+            <p id="symbol-note" class="symbol-note">The lotus is often used as a calm and pure symbol.</p>
           </aside>
         </div>
       </section>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-labelledby="title desc">
+  <title id="title">Shankha puzzle image</title>
+  <desc id="desc">A simple shankha conch shell picture.</desc>
+  <rect width="600" height="600" fill="#fff7df"/>
+  <circle cx="300" cy="300" r="242" fill="#ffffff" stroke="#1f2f3a" stroke-width="10"/>
+  <circle cx="300" cy="300" r="194" fill="#e9f7ff"/>
+  <path d="M204 346 C174 278 218 198 304 174 C392 150 462 194 464 266 C466 340 392 390 304 394 C260 396 226 380 204 346Z" fill="#fffdf7" stroke="#1f2f3a" stroke-width="10"/>
+  <path d="M286 184 C318 230 320 292 292 346 C264 400 206 402 178 360 C226 366 262 330 272 282 C282 234 260 204 286 184Z" fill="#f0bd34" stroke="#1f2f3a" stroke-width="8"/>
+  <path d="M324 226 C376 224 412 246 424 284" fill="none" stroke="#e46f2e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M316 284 C366 282 398 302 410 336" fill="none" stroke="#087c7c" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="452" cy="264" r="34" fill="#315ca8" stroke="#1f2f3a" stroke-width="8"/>
+  <circle cx="452" cy="264" r="14" fill="#fffdf7"/>
+  <path d="M112 300 h62 M426 300 h62 M300 112 v62 M300 426 v62" stroke="#3d7d3b" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="134" cy="134" r="22" fill="#e46f2e"/>
+  <circle cx="466" cy="134" r="22" fill="#e46f2e"/>
+  <circle cx="134" cy="466" r="22" fill="#f0bd34"/>
+  <circle cx="466" cy="466" r="22" fill="#f0bd34"/>
+</svg>

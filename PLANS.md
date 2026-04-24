@@ -9,8 +9,11 @@ Current truth:
 - current site is now a static MVP with:
   - landing page
   - Great People quiz
+  - Symbols quiz
+  - Festival quiz
   - hidden objects game
-  - simple lotus tile puzzle
+  - Hindu symbol tile puzzles
+  - Hindu Symbols hub
 
 Working steps:
 1. keep the repo static and GitHub Pages safe
@@ -53,3 +56,5 @@ Progress:
 - built the landing page and three MVP games
 - moved shared styling and scripts under `assets/`
 - used local SVG art so the site has no external asset dependency
+- added extra quiz packs for symbols and festivals
+- expanded jigsaw into lotus, diya, shankha, and trishul puzzles

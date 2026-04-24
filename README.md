@@ -15,8 +15,11 @@ The repo has a static GitHub Pages MVP with:
 
 1. landing page at `index.html`
 2. Great People quiz at `games/quiz/`
-3. hidden objects game at `games/hidden-objects/`
-4. lotus tile puzzle at `games/jigsaw/`
+3. Symbols quiz at `games/quiz/symbols/`
+4. Festival quiz at `games/quiz/festivals/`
+5. hidden objects game at `games/hidden-objects/`
+6. Hindu symbol tile puzzles at `games/jigsaw/`
+7. Hindu Symbols hub at `games/symbols/`
 
 ## MVP direction
 
@@ -53,8 +56,11 @@ Avoid heavy frameworks unless there is a strong need.
 - `assets/js/`: game scripts
 - `assets/images/`: local SVG game art
 - `games/quiz/`: Great People quiz
+- `games/quiz/symbols/`: Hindu Symbols quiz
+- `games/quiz/festivals/`: Festival quiz
 - `games/hidden-objects/`: hidden objects scene
-- `games/jigsaw/`: lotus tile puzzle
+- `games/jigsaw/`: Hindu symbol tile puzzles
+- `games/symbols/`: symbols activity hub
 - `docs/ROADMAP.md`: future game ideas
 
 ## Local preview

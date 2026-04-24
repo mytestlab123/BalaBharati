@@ -277,6 +277,10 @@ h3 {
   background: var(--green);
 }
 
+.blue .game-icon {
+  background: var(--blue);
+}
+
 .why-row {
   display: grid;
   grid-template-columns: 0.8fr 1fr;
@@ -504,6 +508,35 @@ h3 {
   align-items: start;
 }
 
+.symbol-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.symbol-choice {
+  min-height: 46px;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 14px;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.symbol-choice:hover,
+.symbol-choice:focus-visible,
+.symbol-choice.active {
+  border-color: var(--blue);
+  outline: 3px solid rgba(49, 92, 168, 0.16);
+}
+
+.symbol-choice.active {
+  background: #eaf1ff;
+}
+
 .puzzle-board {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -517,7 +550,7 @@ h3 {
 
 .tile {
   border: 1px solid rgba(31, 47, 58, 0.28);
-  background-image: url("../images/lotus-puzzle.svg");
+  background-image: var(--puzzle-image, url("../images/lotus-puzzle.svg"));
   background-size: 300% 300%;
   color: transparent;
   cursor: pointer;
@@ -544,6 +577,13 @@ h3 {
   border: 2px solid var(--line);
   border-radius: 8px;
   background: #fff7df;
+}
+
+.symbol-note {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-weight: 800;
+  line-height: 1.45;
 }
 
 @media (max-width: 820px) {
@@ -592,6 +632,6 @@ h3 {
     min-width: 46px;
     min-height: 46px;
     padding: 8px;
-    font-size: 0.82rem;
+    font-size: 0;
   }
 }
