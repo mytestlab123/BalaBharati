@@ -304,6 +304,17 @@ function updateFeedback(type, message) {
   feedbackEl.textContent = message;
 }
 
+function shuffleChoices(choices) {
+  const shuffled = [...choices];
+
+  for (let index = shuffled.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]];
+  }
+
+  return shuffled;
+}
+
 function renderQuestion() {
   const current = questions[currentIndex];
   answered = false;
@@ -314,7 +325,7 @@ function renderQuestion() {
   answersEl.innerHTML = "";
   updateFeedback("", "Choose the best answer.");
 
-  current.choices.forEach((choice) => {
+  shuffleChoices(current.choices).forEach((choice) => {
     const button = document.createElement("button");
     button.type = "button";
     button.className = "answer-button";
