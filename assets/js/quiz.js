@@ -59,7 +59,7 @@ const quizSets = {
       },
       {
         question: "What is one quality these great people showed?",
-        choices: ["Courage", "Laziness", "Fear of work", "Unkindness"],
+        choices: ["Courage", "Fame", "Comfort", "Speed"],
         answer: "Courage",
         success: "Great. Courage means doing the right thing even when it is hard."
       }
@@ -94,9 +94,9 @@ const quizSets = {
       },
       {
         question: "What should we do with sacred symbols?",
-        choices: ["Treat them respectfully", "Throw them around", "Laugh at them", "Hide them always"],
+        choices: ["Treat them respectfully", "Use them only as decoration", "Keep them without learning", "Notice only their colors"],
         answer: "Treat them respectfully",
-        success: "Good. Sacred symbols should be treated with respect."
+        success: "Good. Sacred symbols should be treated with respect and a humble mind."
       }
     ]
   },
@@ -129,9 +129,9 @@ const quizSets = {
       },
       {
         question: "What is a good festival habit?",
-        choices: ["Share joy kindly", "Waste food", "Push others", "Make fun of people"],
+        choices: ["Share joy kindly", "Save every sweet only for yourself", "Think only about new clothes", "Forget to thank helpers"],
         answer: "Share joy kindly",
-        success: "Yes. Festivals are a good time for kindness and gratitude."
+        success: "Yes. Festivals are a good time for kindness, gratitude, and seva."
       }
     ]
   },
@@ -164,7 +164,7 @@ const quizSets = {
       },
       {
         question: "Which value is Rama often connected with?",
-        choices: ["Dharma", "Cheating", "Laziness", "Rudeness"],
+        choices: ["Dharma", "Comfort", "Fame", "Quick victory"],
         answer: "Dharma",
         success: "Good. Dharma means doing what is right."
       }
@@ -193,15 +193,15 @@ const quizSets = {
       },
       {
         question: "What does the Mahabharata often teach us to think about?",
-        choices: ["Right choices", "Only winning games", "Being unkind", "Ignoring family"],
+        choices: ["Right choices", "Only winning", "Only strength", "Fast answers"],
         answer: "Right choices",
         success: "Correct. The Mahabharata has many stories about choices and responsibility."
       },
       {
         question: "What should we do when we feel confused like Arjuna?",
-        choices: ["Ask for wise guidance", "Give up immediately", "Shout at everyone", "Hide the truth"],
+        choices: ["Ask for wise guidance", "Choose in a hurry", "Think only of winning", "Avoid all questions"],
         answer: "Ask for wise guidance",
-        success: "Good. Asking a wise person can help us choose better."
+        success: "Good. Asking a wise person with humility can help us choose better."
       }
     ]
   },
@@ -209,34 +209,34 @@ const quizSets = {
     storageKey: "balabharati-values-best",
     questions: [
       {
-        question: "If a friend drops their books, what is a kind thing to do?",
-        choices: ["Help pick them up", "Laugh loudly", "Walk away", "Hide a book"],
+        question: "If a friend drops their books, what is a dharmic thing to do?",
+        choices: ["Help pick them up", "Wait for someone else", "Only watch quietly", "Pick up only your own things"],
         answer: "Help pick them up",
-        success: "Correct. Helping is a kind and strong action."
+        success: "Correct. Helping with humility is a kind and dharmic action."
       },
       {
         question: "What should you say when someone helps you?",
-        choices: ["Thank you", "Go away", "Nothing ever", "That was bad"],
+        choices: ["Thank you", "I saw it", "Maybe later", "I will go now"],
         answer: "Thank you",
-        success: "Yes. Saying thank you shows gratitude."
+        success: "Yes. Saying thank you shows gratitude and respect."
       },
       {
         question: "What does satya mean?",
-        choices: ["Truth", "Noise", "Hurry", "Anger"],
+        choices: ["Truth", "Peace", "Learning", "Service"],
         answer: "Truth",
-        success: "Right. Satya means truth."
+        success: "Right. Satya means truth, spoken with care."
       },
       {
         question: "What is a respectful way to listen?",
-        choices: ["Let the person finish", "Interrupt every word", "Make faces", "Run away"],
+        choices: ["Let the person finish", "Speak first", "Look around the room", "Think only of your answer"],
         answer: "Let the person finish",
-        success: "Correct. Good listening shows respect."
+        success: "Correct. Good listening shows respect and humility."
       },
       {
         question: "What is courage?",
-        choices: ["Doing the right thing even when it is hard", "Never asking questions", "Being rude", "Breaking rules"],
+        choices: ["Doing the right thing even when it is hard", "Being the strongest every time", "Never feeling afraid", "Winning every time"],
         answer: "Doing the right thing even when it is hard",
-        success: "Good. Courage and kindness can go together."
+        success: "Good. Dharmic courage can be strong, kind, and humble."
       }
     ]
   },
@@ -358,7 +358,7 @@ function handleAnswer(button, choice) {
     updateFeedback("good", current.success);
   } else {
     button.classList.add("wrong");
-    updateFeedback("bad", `Good try. The answer is ${current.answer}.`);
+    updateFeedback("bad", `Good try. The answer here is ${current.answer}.`);
   }
 
   nextButton.disabled = false;
