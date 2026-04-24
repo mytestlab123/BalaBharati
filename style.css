@@ -1,0 +1,218 @@
+:root {
+  --bg-a: #fff1bf;
+  --bg-b: #c9f0ff;
+  --card: #ffffff;
+  --ink: #19324a;
+  --soft-ink: #4f6780;
+  --good: #1f9d55;
+  --bad: #d94841;
+  --accent-a: #ff7a59;
+  --accent-b: #4f7cff;
+  --accent-c: #f6c945;
+  --border: #dfe8f2;
+  --shadow: 0 16px 48px rgba(25, 50, 74, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Comic Sans MS", "Segoe UI", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(255, 122, 89, 0.22), transparent 24%),
+    radial-gradient(circle at top right, rgba(79, 124, 255, 0.2), transparent 28%),
+    linear-gradient(160deg, var(--bg-a), var(--bg-b));
+  min-height: 100vh;
+}
+
+.page-shell {
+  width: min(960px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 24px 0 40px;
+}
+
+.hero {
+  text-align: center;
+  padding: 12px 0 20px;
+}
+
+.eyebrow {
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-b);
+}
+
+.hero h1 {
+  margin: 10px 0 8px;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 1;
+}
+
+.subtitle {
+  margin: 0 auto;
+  max-width: 36rem;
+  font-size: 1.1rem;
+  color: var(--soft-ink);
+}
+
+.quiz-card {
+  background: rgba(255, 255, 255, 0.96);
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+
+.status-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.pill {
+  padding: 10px 16px;
+  border-radius: 999px;
+  background: #f6faff;
+  border: 2px solid var(--border);
+  font-weight: 700;
+}
+
+.question-block {
+  text-align: center;
+  padding: 16px 0 12px;
+}
+
+.question-block h2 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2.2rem);
+}
+
+.answers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+  padding-top: 8px;
+}
+
+.answer-button {
+  border: 0;
+  border-radius: 20px;
+  padding: 18px 16px;
+  min-height: 86px;
+  font: inherit;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--ink);
+  background: linear-gradient(180deg, #ffffff, #edf6ff);
+  box-shadow: 0 10px 20px rgba(25, 50, 74, 0.08);
+  cursor: pointer;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, background 0.16s ease;
+}
+
+.answer-button:hover,
+.answer-button:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 26px rgba(25, 50, 74, 0.12);
+  outline: 3px solid rgba(79, 124, 255, 0.22);
+}
+
+.answer-button.correct {
+  background: linear-gradient(180deg, #dff7e9, #bfeccb);
+  color: #0b5f31;
+}
+
+.answer-button.wrong {
+  background: linear-gradient(180deg, #ffe3df, #ffc7be);
+  color: #8a221a;
+}
+
+.answer-button:disabled {
+  cursor: default;
+  transform: none;
+}
+
+.feedback {
+  margin-top: 16px;
+  border-radius: 18px;
+  padding: 16px 18px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.05rem;
+}
+
+.feedback.neutral {
+  background: #eef7ff;
+  color: var(--soft-ink);
+}
+
+.feedback.good {
+  background: #dff7e9;
+  color: #0b5f31;
+}
+
+.feedback.bad {
+  background: #ffe3df;
+  color: #8a221a;
+}
+
+.action-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  padding-top: 18px;
+}
+
+.primary-button,
+.secondary-button {
+  border: 0;
+  border-radius: 999px;
+  padding: 14px 22px;
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.primary-button {
+  color: #fff;
+  background: linear-gradient(135deg, var(--accent-a), #ff9878);
+}
+
+.primary-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.secondary-button {
+  color: var(--ink);
+  background: linear-gradient(135deg, #f6c945, #ffd96b);
+}
+
+.footer-note {
+  text-align: center;
+  color: var(--soft-ink);
+  font-weight: 700;
+  padding-top: 16px;
+}
+
+@media (max-width: 640px) {
+  .page-shell {
+    width: min(100% - 20px, 960px);
+    padding-top: 14px;
+  }
+
+  .quiz-card {
+    padding: 18px;
+  }
+
+  .answer-button {
+    min-height: 74px;
+  }
+}
