@@ -170,6 +170,131 @@ const quizSets = {
       }
     ]
   },
+  "ramayana-20": {
+    storageKey: "balabharati-ramayana-20-best",
+    questions: [
+      {
+        question: "Who is traditionally known as the author of the Ramayana?",
+        choices: ["Valmiki", "Vyasa", "Tulsidas", "Kalidasa"],
+        answer: "Valmiki",
+        success: "Correct. Maharishi Valmiki is traditionally known as the author of the Ramayana."
+      },
+      {
+        question: "What was Rama's kingdom?",
+        choices: ["Ayodhya", "Mithila", "Kishkindha", "Lanka"],
+        answer: "Ayodhya",
+        success: "Yes. Rama belonged to Ayodhya."
+      },
+      {
+        question: "Who was Rama's father?",
+        choices: ["Dasharatha", "Janaka", "Vishwamitra", "Sugriva"],
+        answer: "Dasharatha",
+        success: "Correct. King Dasharatha was Rama's father."
+      },
+      {
+        question: "Who was Sita's father?",
+        choices: ["Janaka", "Dasharatha", "Bharata", "Vibhishana"],
+        answer: "Janaka",
+        success: "Right. King Janaka was Sita's father."
+      },
+      {
+        question: "Who went to the forest with Rama and Sita?",
+        choices: ["Lakshmana", "Bharata", "Shatrughna", "Sugriva"],
+        answer: "Lakshmana",
+        success: "Correct. Lakshmana went with Rama and Sita."
+      },
+      {
+        question: "How many years was Rama in exile?",
+        choices: ["14", "12", "10", "16"],
+        answer: "14",
+        success: "Yes. Rama's exile was for 14 years."
+      },
+      {
+        question: "Which bow did Rama lift at Sita's swayamvara?",
+        choices: ["Shiva's bow", "Vishnu's bow", "Indra's bow", "Varuna's bow"],
+        answer: "Shiva's bow",
+        success: "Correct. Rama lifted and broke Shiva's bow."
+      },
+      {
+        question: "Who came as the golden deer?",
+        choices: ["Maricha", "Ravana", "Vali", "Jambavan"],
+        answer: "Maricha",
+        success: "Right. Maricha appeared as the golden deer."
+      },
+      {
+        question: "Who took Sita to Lanka?",
+        choices: ["Ravana", "Kumbhakarna", "Vali", "Khara"],
+        answer: "Ravana",
+        success: "Correct. Ravana took Sita to Lanka."
+      },
+      {
+        question: "Who tried to stop Ravana while Sita was being taken?",
+        choices: ["Jatayu", "Sampati", "Angada", "Nala"],
+        answer: "Jatayu",
+        success: "Yes. Jatayu bravely tried to stop Ravana."
+      },
+      {
+        question: "Who helped Rama in Kishkindha?",
+        choices: ["Sugriva", "Janaka", "Parashurama", "Dasharatha"],
+        answer: "Sugriva",
+        success: "Correct. Sugriva helped Rama."
+      },
+      {
+        question: "Who crossed the ocean to find Sita?",
+        choices: ["Hanuman", "Lakshmana", "Bharata", "Vibhishana"],
+        answer: "Hanuman",
+        success: "Right. Hanuman crossed the ocean to find Sita."
+      },
+      {
+        question: "Where did Hanuman find Sita?",
+        choices: ["Ashoka Vatika", "Chitrakoot", "Panchavati", "Mithila"],
+        answer: "Ashoka Vatika",
+        success: "Correct. Hanuman found Sita in Ashoka Vatika."
+      },
+      {
+        question: "Who was Ravana's brother who joined Rama?",
+        choices: ["Vibhishana", "Kumbhakarna", "Indrajit", "Khara"],
+        answer: "Vibhishana",
+        success: "Yes. Vibhishana chose the path of dharma."
+      },
+      {
+        question: "Who was Ravana's mighty sleeping brother?",
+        choices: ["Kumbhakarna", "Vibhishana", "Maricha", "Subahu"],
+        answer: "Kumbhakarna",
+        success: "Correct. Kumbhakarna was Ravana's mighty brother."
+      },
+      {
+        question: "Who brought the Sanjeevani mountain?",
+        choices: ["Hanuman", "Angada", "Sugriva", "Nala"],
+        answer: "Hanuman",
+        success: "Right. Hanuman brought the mountain with the Sanjeevani herb."
+      },
+      {
+        question: "What was built to reach Lanka?",
+        choices: ["A bridge", "A tunnel", "A palace", "A tower"],
+        answer: "A bridge",
+        success: "Correct. A bridge was built to reach Lanka."
+      },
+      {
+        question: "Who was defeated in the final battle?",
+        choices: ["Ravana", "Sugriva", "Janaka", "Jatayu"],
+        answer: "Ravana",
+        success: "Yes. Rama defeated Ravana."
+      },
+      {
+        question: "Which festival is often linked with Rama's return to Ayodhya?",
+        choices: ["Deepavali", "Holi", "Pongal", "Raksha Bandhan"],
+        answer: "Deepavali",
+        success: "Correct. Deepavali is often linked with Rama's return to Ayodhya."
+      },
+      {
+        question: "Who were Rama and Sita's sons?",
+        choices: ["Lava and Kusha", "Nakula and Sahadeva", "Bala and Atibala", "Nala and Neela"],
+        answer: "Lava and Kusha",
+        success: "Right. Lava and Kusha were Rama and Sita's sons."
+      }
+    ]
+  },
   mahabharata: {
     storageKey: "balabharati-mahabharata-best",
     questions: [

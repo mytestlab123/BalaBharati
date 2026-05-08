@@ -13,6 +13,7 @@ Current truth:
   - Symbols quiz
   - Festival quiz
   - Ramayana quiz
+  - Ramayana 20 quiz
   - Mahabharata quiz
   - Values quiz
   - Sanskrit Words quiz
@@ -64,3 +65,4 @@ Progress:
 - added extra quiz packs for symbols and festivals
 - expanded jigsaw into lotus, diya, shankha, and trishul puzzles
 - added a quiz hub plus Ramayana, Mahabharata, Values, and Sanskrit Words packs
+- added a longer Ramayana 20 quiz with less hint-heavy choices
