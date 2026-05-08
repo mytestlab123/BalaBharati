@@ -101,7 +101,6 @@ Public URL target:
 
 - `AGENTS.md`: repo rules and build direction
 - `PLANS.md`: active MVP task
-- `page.md`: detailed build brief for the next Codex session
 - `docs/ROADMAP.md`: future game ideas
 
 ## Build philosophy
