@@ -299,34 +299,34 @@ const quizSets = {
     storageKey: "balabharati-mahabharata-best",
     questions: [
       {
-        question: "Who guided Arjuna in the Bhagavad Gita?",
-        choices: ["Krishna", "Hanuman", "Valmiki", "Tenali Raman"],
+        question: "The Mahabharata is a Sanskrit epic from which land?",
+        choices: ["India", "Greece", "Egypt", "China"],
+        answer: "India",
+        success: "Correct. The Mahabharata is a great Sanskrit epic from India."
+      },
+      {
+        question: "Which two groups are central to the Mahabharata?",
+        choices: ["Pandavas and Kauravas", "Vanaras and Rakshasas", "Devas and Asuras only", "Rishis and Yakshas"],
+        answer: "Pandavas and Kauravas",
+        success: "Yes. The story centers on the Pandavas and Kauravas."
+      },
+      {
+        question: "Where was the great war fought?",
+        choices: ["Kurukshetra", "Ayodhya", "Lanka", "Mithila"],
+        answer: "Kurukshetra",
+        success: "Correct. The great war was fought at Kurukshetra."
+      },
+      {
+        question: "Who speaks the Bhagavad Gita to Arjuna?",
+        choices: ["Krishna", "Bhishma", "Drona", "Vidura"],
         answer: "Krishna",
-        success: "Correct. Krishna guided Arjuna with wisdom about duty and courage."
+        success: "Correct. Krishna teaches Arjuna in the Bhagavad Gita."
       },
       {
-        question: "Which Pandava was famous for archery?",
-        choices: ["Arjuna", "Nakula", "Sahadeva", "Bhima"],
-        answer: "Arjuna",
-        success: "Yes. Arjuna is remembered as a skilled archer."
-      },
-      {
-        question: "Which Pandava was very strong?",
-        choices: ["Bhima", "Yudhishthira", "Arjuna", "Nakula"],
-        answer: "Bhima",
-        success: "Right. Bhima is remembered for great strength."
-      },
-      {
-        question: "What does the Mahabharata often teach us to think about?",
-        choices: ["Right choices", "Only winning", "Only strength", "Fast answers"],
-        answer: "Right choices",
-        success: "Correct. The Mahabharata has many stories about choices and responsibility."
-      },
-      {
-        question: "What should we do when we feel confused like Arjuna?",
-        choices: ["Ask for wise guidance", "Choose in a hurry", "Think only of winning", "Avoid all questions"],
-        answer: "Ask for wise guidance",
-        success: "Good. Asking a wise person with humility can help us choose better."
+        question: "What is a major theme of the Mahabharata?",
+        choices: ["Dharma", "Speed", "Decoration", "Travel"],
+        answer: "Dharma",
+        success: "Good. The Mahabharata asks us to think deeply about dharma."
       }
     ]
   },
@@ -334,124 +334,124 @@ const quizSets = {
     storageKey: "balabharati-mahabharata-20-best",
     questions: [
       {
-        question: "Who is traditionally known as the author of the Mahabharata?",
-        choices: ["Vyasa", "Valmiki", "Kalidasa", "Tulsidas"],
+        question: "The Mahabharata is mainly known as what kind of text?",
+        choices: ["Sanskrit epic", "Travel diary", "Math book", "Cookbook"],
+        answer: "Sanskrit epic",
+        success: "Correct. The Mahabharata is a Sanskrit epic from India."
+      },
+      {
+        question: "Who is traditionally connected with composing the Mahabharata?",
+        choices: ["Vyasa", "Valmiki", "Panini", "Kalidasa"],
         answer: "Vyasa",
-        success: "Correct. Maharishi Vyasa is traditionally known as the author of the Mahabharata."
+        success: "Yes. Maharishi Vyasa is traditionally connected with the Mahabharata."
       },
       {
-        question: "What was the Kauravas' capital?",
-        choices: ["Hastinapura", "Indraprastha", "Dwaraka", "Mithila"],
+        question: "Which family line is central to the Mahabharata?",
+        choices: ["Kuru", "Ikshvaku", "Yadu only", "Chola"],
+        answer: "Kuru",
+        success: "Correct. The Kuru family line is central to the epic."
+      },
+      {
+        question: "Which city is closely linked with the Kuru court?",
+        choices: ["Hastinapura", "Ayodhya", "Kishkindha", "Ujjain"],
         answer: "Hastinapura",
-        success: "Yes. Hastinapura was the Kuru capital."
+        success: "Right. Hastinapura is closely linked with the Kuru court."
       },
       {
-        question: "Who was the eldest Pandava?",
-        choices: ["Yudhishthira", "Bhima", "Arjuna", "Nakula"],
+        question: "Who are the five brothers opposed by the Kauravas?",
+        choices: ["Pandavas", "Vanaras", "Rakshasas", "Nagas"],
+        answer: "Pandavas",
+        success: "Correct. The five Pandava brothers are central to the story."
+      },
+      {
+        question: "Who is the eldest Pandava?",
+        choices: ["Yudhishthira", "Bhima", "Arjuna", "Sahadeva"],
         answer: "Yudhishthira",
-        success: "Correct. Yudhishthira was the eldest Pandava."
+        success: "Yes. Yudhishthira is the eldest Pandava."
       },
       {
-        question: "Which Pandava was known for great strength?",
-        choices: ["Bhima", "Arjuna", "Sahadeva", "Yudhishthira"],
+        question: "Which Pandava is known for great strength?",
+        choices: ["Bhima", "Arjuna", "Nakula", "Sahadeva"],
         answer: "Bhima",
-        success: "Right. Bhima was known for great strength."
+        success: "Correct. Bhima is known for great strength."
       },
       {
-        question: "Which Pandava was known for archery?",
-        choices: ["Arjuna", "Bhima", "Nakula", "Sahadeva"],
+        question: "Which Pandava is known for archery?",
+        choices: ["Arjuna", "Bhima", "Nakula", "Yudhishthira"],
         answer: "Arjuna",
-        success: "Correct. Arjuna was known for archery."
+        success: "Right. Arjuna is known for archery."
       },
       {
-        question: "Who was the wife of the five Pandavas?",
-        choices: ["Draupadi", "Kunti", "Subhadra", "Gandhari"],
-        answer: "Draupadi",
-        success: "Yes. Draupadi was the wife of the five Pandavas."
+        question: "Who is Draupadi in the Mahabharata?",
+        choices: ["Queen of the Pandavas", "Mother of Krishna", "Teacher of Drona", "King of Kashi"],
+        answer: "Queen of the Pandavas",
+        success: "Correct. Draupadi is a central queen in the Pandava story."
       },
       {
-        question: "Who was the mother of the first three Pandavas?",
-        choices: ["Kunti", "Madri", "Gandhari", "Satyavati"],
-        answer: "Kunti",
-        success: "Correct. Kunti was the mother of Yudhishthira, Bhima, and Arjuna."
-      },
-      {
-        question: "Who was the mother of Nakula and Sahadeva?",
-        choices: ["Madri", "Kunti", "Draupadi", "Subhadra"],
-        answer: "Madri",
-        success: "Right. Madri was the mother of Nakula and Sahadeva."
-      },
-      {
-        question: "Who was called the grandsire in the Kuru family?",
-        choices: ["Bhishma", "Drona", "Vidura", "Kripa"],
-        answer: "Bhishma",
-        success: "Correct. Bhishma was respected as the grandsire."
-      },
-      {
-        question: "Who taught the Pandavas and Kauravas warfare?",
-        choices: ["Drona", "Vyasa", "Janaka", "Vishwamitra"],
-        answer: "Drona",
-        success: "Yes. Drona was their teacher in warfare."
-      },
-      {
-        question: "Who was Karna's close friend among the Kauravas?",
-        choices: ["Duryodhana", "Dushasana", "Shakuni", "Ashwatthama"],
-        answer: "Duryodhana",
-        success: "Correct. Karna was close to Duryodhana."
-      },
-      {
-        question: "Who was Krishna's sister?",
-        choices: ["Subhadra", "Draupadi", "Kunti", "Gandhari"],
-        answer: "Subhadra",
-        success: "Right. Subhadra was Krishna's sister."
-      },
-      {
-        question: "Who was Abhimanyu's father?",
-        choices: ["Arjuna", "Bhima", "Yudhishthira", "Nakula"],
-        answer: "Arjuna",
-        success: "Correct. Abhimanyu was Arjuna's son."
-      },
-      {
-        question: "Who guided Arjuna in the Bhagavad Gita?",
-        choices: ["Krishna", "Bhishma", "Drona", "Vidura"],
-        answer: "Krishna",
-        success: "Yes. Krishna guided Arjuna with dharmic wisdom."
-      },
-      {
-        question: "Where was the great war fought?",
-        choices: ["Kurukshetra", "Panchavati", "Kishkindha", "Lanka"],
-        answer: "Kurukshetra",
-        success: "Correct. The great war was fought at Kurukshetra."
+        question: "Which event led to the Pandavas' exile?",
+        choices: ["Dice game", "Swayamvara", "Horse sacrifice", "Forest debate"],
+        answer: "Dice game",
+        success: "Yes. The dice game led to the Pandavas' exile."
       },
       {
         question: "How many years did the Pandavas spend in exile?",
-        choices: ["13", "12", "14", "10"],
+        choices: ["13", "10", "12", "14"],
         answer: "13",
-        success: "Right. The Pandavas spent 13 years in exile, including the hidden year."
+        success: "Correct. The exile was 13 years, including the hidden year."
       },
       {
-        question: "Where did the Pandavas live during the hidden year?",
-        choices: ["Virata", "Dwaraka", "Mithila", "Ayodhya"],
-        answer: "Virata",
-        success: "Correct. They lived in the kingdom of Virata during the hidden year."
+        question: "Where did the great war take place?",
+        choices: ["Kurukshetra", "Lanka", "Ayodhya", "Mithila"],
+        answer: "Kurukshetra",
+        success: "Right. The great war took place at Kurukshetra."
       },
       {
-        question: "Who was known for wise counsel in Hastinapura?",
-        choices: ["Vidura", "Shalya", "Jayadratha", "Kritavarma"],
-        answer: "Vidura",
-        success: "Yes. Vidura is remembered for wisdom and dharmic counsel."
+        question: "Who is Arjuna's charioteer in the war?",
+        choices: ["Krishna", "Bhishma", "Drona", "Vidura"],
+        answer: "Krishna",
+        success: "Correct. Krishna serves as Arjuna's charioteer."
       },
       {
-        question: "Who was Drona's son?",
-        choices: ["Ashwatthama", "Abhimanyu", "Ghatotkacha", "Parikshit"],
-        answer: "Ashwatthama",
-        success: "Correct. Ashwatthama was Drona's son."
+        question: "Who speaks the Bhagavad Gita?",
+        choices: ["Krishna", "Yudhishthira", "Bhishma", "Vyasa"],
+        answer: "Krishna",
+        success: "Yes. Krishna speaks the Bhagavad Gita to Arjuna."
       },
       {
-        question: "What value does Yudhishthira often represent?",
-        choices: ["Truth", "Speed", "Strength", "Wealth"],
-        answer: "Truth",
-        success: "Right. Yudhishthira is often connected with truth and dharma."
+        question: "What is Arjuna troubled about before the war?",
+        choices: ["Duty", "Food", "Travel", "Music"],
+        answer: "Duty",
+        success: "Good. Arjuna is troubled about duty, family, and dharma."
+      },
+      {
+        question: "Who is the blind king in the Kuru court?",
+        choices: ["Dhritarashtra", "Pandu", "Shantanu", "Virata"],
+        answer: "Dhritarashtra",
+        success: "Correct. Dhritarashtra is the blind king."
+      },
+      {
+        question: "Who is the mother of the first three Pandavas?",
+        choices: ["Kunti", "Gandhari", "Draupadi", "Subhadra"],
+        answer: "Kunti",
+        success: "Right. Kunti is the mother of Yudhishthira, Bhima, and Arjuna."
+      },
+      {
+        question: "Who is Karna's mother?",
+        choices: ["Kunti", "Madri", "Gandhari", "Satyavati"],
+        answer: "Kunti",
+        success: "Correct. Kunti is Karna's mother."
+      },
+      {
+        question: "Who is respected as the grandsire of the Kuru family?",
+        choices: ["Bhishma", "Drona", "Vidura", "Kripa"],
+        answer: "Bhishma",
+        success: "Yes. Bhishma is respected as the grandsire."
+      },
+      {
+        question: "What does the Mahabharata ask us to think about?",
+        choices: ["Dharma", "Decoration", "Speed", "Treasure"],
+        answer: "Dharma",
+        success: "Good. The Mahabharata asks us to think deeply about dharma."
       }
     ]
   },
