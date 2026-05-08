@@ -15,6 +15,7 @@ Current truth:
   - Ramayana quiz
   - Ramayana 20 quiz
   - Mahabharata quiz
+  - Mahabharata 20 quiz
   - Values quiz
   - Sanskrit Words quiz
   - hidden objects game
@@ -66,3 +67,4 @@ Progress:
 - expanded jigsaw into lotus, diya, shankha, and trishul puzzles
 - added a quiz hub plus Ramayana, Mahabharata, Values, and Sanskrit Words packs
 - added a longer Ramayana 20 quiz with less hint-heavy choices
+- added a longer Mahabharata 20 quiz with less hint-heavy choices

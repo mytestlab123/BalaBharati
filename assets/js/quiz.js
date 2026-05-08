@@ -330,6 +330,131 @@ const quizSets = {
       }
     ]
   },
+  "mahabharata-20": {
+    storageKey: "balabharati-mahabharata-20-best",
+    questions: [
+      {
+        question: "Who is traditionally known as the author of the Mahabharata?",
+        choices: ["Vyasa", "Valmiki", "Kalidasa", "Tulsidas"],
+        answer: "Vyasa",
+        success: "Correct. Maharishi Vyasa is traditionally known as the author of the Mahabharata."
+      },
+      {
+        question: "What was the Kauravas' capital?",
+        choices: ["Hastinapura", "Indraprastha", "Dwaraka", "Mithila"],
+        answer: "Hastinapura",
+        success: "Yes. Hastinapura was the Kuru capital."
+      },
+      {
+        question: "Who was the eldest Pandava?",
+        choices: ["Yudhishthira", "Bhima", "Arjuna", "Nakula"],
+        answer: "Yudhishthira",
+        success: "Correct. Yudhishthira was the eldest Pandava."
+      },
+      {
+        question: "Which Pandava was known for great strength?",
+        choices: ["Bhima", "Arjuna", "Sahadeva", "Yudhishthira"],
+        answer: "Bhima",
+        success: "Right. Bhima was known for great strength."
+      },
+      {
+        question: "Which Pandava was known for archery?",
+        choices: ["Arjuna", "Bhima", "Nakula", "Sahadeva"],
+        answer: "Arjuna",
+        success: "Correct. Arjuna was known for archery."
+      },
+      {
+        question: "Who was the wife of the five Pandavas?",
+        choices: ["Draupadi", "Kunti", "Subhadra", "Gandhari"],
+        answer: "Draupadi",
+        success: "Yes. Draupadi was the wife of the five Pandavas."
+      },
+      {
+        question: "Who was the mother of the first three Pandavas?",
+        choices: ["Kunti", "Madri", "Gandhari", "Satyavati"],
+        answer: "Kunti",
+        success: "Correct. Kunti was the mother of Yudhishthira, Bhima, and Arjuna."
+      },
+      {
+        question: "Who was the mother of Nakula and Sahadeva?",
+        choices: ["Madri", "Kunti", "Draupadi", "Subhadra"],
+        answer: "Madri",
+        success: "Right. Madri was the mother of Nakula and Sahadeva."
+      },
+      {
+        question: "Who was called the grandsire in the Kuru family?",
+        choices: ["Bhishma", "Drona", "Vidura", "Kripa"],
+        answer: "Bhishma",
+        success: "Correct. Bhishma was respected as the grandsire."
+      },
+      {
+        question: "Who taught the Pandavas and Kauravas warfare?",
+        choices: ["Drona", "Vyasa", "Janaka", "Vishwamitra"],
+        answer: "Drona",
+        success: "Yes. Drona was their teacher in warfare."
+      },
+      {
+        question: "Who was Karna's close friend among the Kauravas?",
+        choices: ["Duryodhana", "Dushasana", "Shakuni", "Ashwatthama"],
+        answer: "Duryodhana",
+        success: "Correct. Karna was close to Duryodhana."
+      },
+      {
+        question: "Who was Krishna's sister?",
+        choices: ["Subhadra", "Draupadi", "Kunti", "Gandhari"],
+        answer: "Subhadra",
+        success: "Right. Subhadra was Krishna's sister."
+      },
+      {
+        question: "Who was Abhimanyu's father?",
+        choices: ["Arjuna", "Bhima", "Yudhishthira", "Nakula"],
+        answer: "Arjuna",
+        success: "Correct. Abhimanyu was Arjuna's son."
+      },
+      {
+        question: "Who guided Arjuna in the Bhagavad Gita?",
+        choices: ["Krishna", "Bhishma", "Drona", "Vidura"],
+        answer: "Krishna",
+        success: "Yes. Krishna guided Arjuna with dharmic wisdom."
+      },
+      {
+        question: "Where was the great war fought?",
+        choices: ["Kurukshetra", "Panchavati", "Kishkindha", "Lanka"],
+        answer: "Kurukshetra",
+        success: "Correct. The great war was fought at Kurukshetra."
+      },
+      {
+        question: "How many years did the Pandavas spend in exile?",
+        choices: ["13", "12", "14", "10"],
+        answer: "13",
+        success: "Right. The Pandavas spent 13 years in exile, including the hidden year."
+      },
+      {
+        question: "Where did the Pandavas live during the hidden year?",
+        choices: ["Virata", "Dwaraka", "Mithila", "Ayodhya"],
+        answer: "Virata",
+        success: "Correct. They lived in the kingdom of Virata during the hidden year."
+      },
+      {
+        question: "Who was known for wise counsel in Hastinapura?",
+        choices: ["Vidura", "Shalya", "Jayadratha", "Kritavarma"],
+        answer: "Vidura",
+        success: "Yes. Vidura is remembered for wisdom and dharmic counsel."
+      },
+      {
+        question: "Who was Drona's son?",
+        choices: ["Ashwatthama", "Abhimanyu", "Ghatotkacha", "Parikshit"],
+        answer: "Ashwatthama",
+        success: "Correct. Ashwatthama was Drona's son."
+      },
+      {
+        question: "What value does Yudhishthira often represent?",
+        choices: ["Truth", "Speed", "Strength", "Wealth"],
+        answer: "Truth",
+        success: "Right. Yudhishthira is often connected with truth and dharma."
+      }
+    ]
+  },
   values: {
     storageKey: "balabharati-values-best",
     questions: [
