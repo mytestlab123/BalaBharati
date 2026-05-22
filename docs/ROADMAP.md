@@ -12,11 +12,12 @@ Current live MVP:
 8. Mahabharata quiz
 9. Mahabharata 20 quiz
 10. Yaksha Prashna quiz
-11. Values quiz
-12. Sanskrit Words quiz
-13. hidden objects courtyard scene
-14. Hindu symbol tile puzzles
-15. Hindu Symbols activity hub
+11. Buddha Life quiz
+12. Values quiz
+13. Sanskrit Words quiz
+14. hidden objects courtyard scene
+15. Hindu symbol tile puzzles
+16. Hindu Symbols activity hub
 
 Near next:
 

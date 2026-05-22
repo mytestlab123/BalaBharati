@@ -35,6 +35,7 @@ Current quiz packs:
 - Mahabharata
 - Mahabharata 20
 - Yaksha Prashna
+- Buddha Life
 - Values
 - Sanskrit Words
 
@@ -93,6 +94,7 @@ Current quiz packs:
 - `games/quiz/mahabharata/`: short Mahabharata quiz
 - `games/quiz/mahabharata-20/`: longer Mahabharata quiz
 - `games/quiz/yaksha-prashna/`: Yaksha Prashna quiz
+- `games/quiz/buddha-life/`: Buddha Life quiz
 - `games/quiz/values/`: Values quiz
 - `games/quiz/sanskrit/`: Sanskrit Words quiz
 - `games/hidden-objects/`: hidden objects game

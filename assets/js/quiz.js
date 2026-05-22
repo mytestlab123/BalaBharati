@@ -520,6 +520,71 @@ const quizSets = {
       }
     ]
   },
+  "buddha-life": {
+    storageKey: "balabharati-buddha-life-best",
+    questions: [
+      {
+        question: "Who was Buddha?",
+        choices: ["A kind prince who became a teacher", "A strong warrior", "A rich businessman", "A famous singer"],
+        answer: "A kind prince who became a teacher",
+        success: "Correct. Buddha was born as Prince Siddhartha and became a wise teacher."
+      },
+      {
+        question: "Where was Buddha born?",
+        choices: ["In a palace in Nepal", "In a village in India", "In a forest near the ocean", "In a big city"],
+        answer: "In a palace in Nepal",
+        success: "Yes. Buddha was born as Prince Siddhartha in the region of present-day Nepal."
+      },
+      {
+        question: "What was Buddha's name when he was a prince?",
+        choices: ["Siddhartha", "Raju", "Ram", "Shyam"],
+        answer: "Siddhartha",
+        success: "Correct. His princely name was Siddhartha."
+      },
+      {
+        question: "What did Prince Siddhartha see outside his palace?",
+        choices: ["Sickness, old age, and death", "People building a palace", "Children flying kites", "A river full of flowers"],
+        answer: "Sickness, old age, and death",
+        success: "Right. These sights made him think deeply about suffering."
+      },
+      {
+        question: "Why did Prince Siddhartha leave his palace?",
+        choices: ["To find how to end suffering", "To go on a vacation", "To buy new clothes", "To become more famous"],
+        answer: "To find how to end suffering",
+        success: "Yes. He wanted to understand suffering and find peace."
+      },
+      {
+        question: "Where did Buddha find enlightenment?",
+        choices: ["Under a big tree", "On a mountain top", "In a cave", "On the beach"],
+        answer: "Under a big tree",
+        success: "Correct. Buddha found enlightenment while meditating under the Bodhi tree."
+      },
+      {
+        question: "What does enlightenment mean here?",
+        choices: ["Understanding truth and finding peace", "Becoming very rich", "Learning to fly", "Winning a race"],
+        answer: "Understanding truth and finding peace",
+        success: "Good. Enlightenment means deep understanding, wisdom, and peace."
+      },
+      {
+        question: "What did Buddha teach people?",
+        choices: ["Be kind, patient, and peaceful", "Fight to be strongest", "Eat many sweets", "Think only of yourself"],
+        answer: "Be kind, patient, and peaceful",
+        success: "Correct. Buddha taught kindness, patience, peace, and wise living."
+      },
+      {
+        question: "What are Buddha's followers called?",
+        choices: ["Buddhists", "Gardeners", "Singers", "Runners"],
+        answer: "Buddhists",
+        success: "Yes. Buddha's followers are called Buddhists."
+      },
+      {
+        question: "What is a special symbol linked with Buddha?",
+        choices: ["Lotus flower", "Star", "Moon", "Rainbow"],
+        answer: "Lotus flower",
+        success: "Correct. The lotus is often linked with purity, peace, and wisdom."
+      }
+    ]
+  },
   values: {
     storageKey: "balabharati-values-best",
     questions: [

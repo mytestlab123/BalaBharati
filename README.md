@@ -23,11 +23,12 @@ The repo has a static GitHub Pages MVP with:
 8. Mahabharata quiz at `games/quiz/mahabharata/`
 9. Mahabharata 20 quiz at `games/quiz/mahabharata-20/`
 10. Yaksha Prashna quiz at `games/quiz/yaksha-prashna/`
-11. Values quiz at `games/quiz/values/`
-12. Sanskrit Words quiz at `games/quiz/sanskrit/`
-13. hidden objects game at `games/hidden-objects/`
-14. Hindu symbol tile puzzles at `games/jigsaw/`
-15. Hindu Symbols hub at `games/symbols/`
+11. Buddha Life quiz at `games/quiz/buddha-life/`
+12. Values quiz at `games/quiz/values/`
+13. Sanskrit Words quiz at `games/quiz/sanskrit/`
+14. hidden objects game at `games/hidden-objects/`
+15. Hindu symbol tile puzzles at `games/jigsaw/`
+16. Hindu Symbols hub at `games/symbols/`
 
 ## MVP direction
 
@@ -72,6 +73,7 @@ Avoid heavy frameworks unless there is a strong need.
 - `games/quiz/mahabharata/`: Mahabharata quiz
 - `games/quiz/mahabharata-20/`: longer Mahabharata quiz
 - `games/quiz/yaksha-prashna/`: Yaksha Prashna quiz
+- `games/quiz/buddha-life/`: Buddha Life quiz
 - `games/quiz/values/`: Values quiz
 - `games/quiz/sanskrit/`: Sanskrit Words quiz
 - `games/hidden-objects/`: hidden objects scene
