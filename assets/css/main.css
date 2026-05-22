@@ -386,6 +386,18 @@ h3 {
   font-size: clamp(2.1rem, 7vw, 4.2rem);
 }
 
+.story-note {
+  max-width: 48rem;
+  margin: 0;
+  padding: 14px 16px;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--muted);
+  font-weight: 800;
+  line-height: 1.5;
+}
+
 .status-row {
   display: flex;
   flex-wrap: wrap;

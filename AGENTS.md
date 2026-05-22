@@ -34,6 +34,7 @@ Current quiz packs:
 - Ramayana 20
 - Mahabharata
 - Mahabharata 20
+- Yaksha Prashna
 - Values
 - Sanskrit Words
 
@@ -91,6 +92,7 @@ Current quiz packs:
 - `games/quiz/ramayana-20/`: longer Ramayana quiz
 - `games/quiz/mahabharata/`: short Mahabharata quiz
 - `games/quiz/mahabharata-20/`: longer Mahabharata quiz
+- `games/quiz/yaksha-prashna/`: Yaksha Prashna quiz
 - `games/quiz/values/`: Values quiz
 - `games/quiz/sanskrit/`: Sanskrit Words quiz
 - `games/hidden-objects/`: hidden objects game

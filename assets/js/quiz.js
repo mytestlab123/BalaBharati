@@ -455,6 +455,71 @@ const quizSets = {
       }
     ]
   },
+  "yaksha-prashna": {
+    storageKey: "balabharati-yaksha-prashna-best",
+    questions: [
+      {
+        question: "Who answered the Yaksha's questions?",
+        choices: ["Yudhishthira", "Arjuna", "Bhima", "Nakula"],
+        answer: "Yudhishthira",
+        success: "Correct. Yudhishthira answered with patience, humility, and dharma."
+      },
+      {
+        question: "What did the Yaksha ask Yudhishthira to do before drinking water?",
+        choices: ["Answer questions", "Pick flowers", "Build a hut", "Cross a river"],
+        answer: "Answer questions",
+        success: "Yes. Yudhishthira listened first and answered the Yaksha."
+      },
+      {
+        question: "What is heavier than the earth?",
+        choices: ["Mother", "Gold", "Mountain", "Chariot"],
+        answer: "Mother",
+        success: "Right. The answer teaches deep respect for mother."
+      },
+      {
+        question: "What is higher than the sky?",
+        choices: ["Father", "Tree", "Palace", "Flag"],
+        answer: "Father",
+        success: "Correct. The answer teaches respect for father."
+      },
+      {
+        question: "What is faster than the wind?",
+        choices: ["Mind", "Horse", "Arrow", "River"],
+        answer: "Mind",
+        success: "Yes. The mind can travel very fast in thought."
+      },
+      {
+        question: "What is more numerous than blades of grass?",
+        choices: ["Thoughts", "Coins", "Clouds", "Footprints"],
+        answer: "Thoughts",
+        success: "Correct. We can have many thoughts, so we should guide them well."
+      },
+      {
+        question: "What brings true happiness?",
+        choices: ["Contentment", "More toys", "Winning always", "Being first"],
+        answer: "Contentment",
+        success: "Good. Contentment means being grateful and peaceful with what we have."
+      },
+      {
+        question: "What helps dharma stay strong?",
+        choices: ["Truth", "Speed", "Noise", "Decoration"],
+        answer: "Truth",
+        success: "Correct. Truth keeps dharma strong."
+      },
+      {
+        question: "What is the greatest wonder?",
+        choices: ["People forget life is precious", "The moon is round", "Trees grow tall", "Rain fills rivers"],
+        answer: "People forget life is precious",
+        success: "Yes. The teaching reminds us to use our life wisely and kindly."
+      },
+      {
+        question: "What did Yudhishthira show in the Yaksha Prashna story?",
+        choices: ["Patience and wisdom", "Hurry and pride", "Noise and anger", "Fear and hiding"],
+        answer: "Patience and wisdom",
+        success: "Right. Yudhishthira showed patience, wisdom, and dharmic thinking."
+      }
+    ]
+  },
   values: {
     storageKey: "balabharati-values-best",
     questions: [
