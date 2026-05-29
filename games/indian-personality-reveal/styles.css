@@ -143,6 +143,43 @@
   line-height: 1.42;
 }
 
+.hint-list {
+  display: grid;
+  gap: 10px;
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hint-card {
+  display: grid;
+  gap: 5px;
+  min-height: 72px;
+  padding: 12px;
+  border: 2px solid #ead9bb;
+  border-radius: 8px;
+  color: #3e3324;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.hint-card.locked {
+  background: #f2ede2;
+  color: #766b5e;
+}
+
+.hint-card.unlocked {
+  background: #eef8f4;
+  border-color: #087c7c;
+}
+
+.hint-label {
+  color: #9f421b;
+  font-size: 0.82rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 .why-line {
   margin-top: 14px;
   padding: 12px;

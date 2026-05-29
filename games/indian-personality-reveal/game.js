@@ -1,5 +1,5 @@
 const TILE_COUNT = 16;
-const DETAIL_REVEAL_AT = 11;
+const HINT_INTERVAL = 4;
 const REVEAL_DELAY_MS = 900;
 
 const state = {
@@ -67,12 +67,45 @@ function updateButtons() {
   els.resetBtn.disabled = !loaded;
 }
 
-function renderGuessPrompt() {
+function getHints(person) {
+  const hints = [
+    `Field: ${person.category}.`,
+    person.contribution[0],
+    person.contribution[1],
+    person.whyTheyMatter
+  ].filter(Boolean);
+
+  return hints.slice(0, 4);
+}
+
+function renderClues() {
+  if (!state.currentPerson || state.infoShown) {
+    return;
+  }
+
+  const unlockedCount = Math.floor(state.revealedTiles / HINT_INTERVAL);
+  const clueItems = getHints(state.currentPerson)
+    .map((hint, index) => {
+      const unlocked = index < unlockedCount;
+      const clueNumber = index + 1;
+      return `
+        <li class="hint-card ${unlocked ? "unlocked" : "locked"}">
+          <span class="hint-label">Clue ${clueNumber}</span>
+          <span>${unlocked ? hint : `Unlocks after ${clueNumber * HINT_INTERVAL} tiles`}</span>
+        </li>
+      `;
+    })
+    .join("");
+
   els.info.innerHTML = `
     <h2>Make your guess</h2>
-    <p>Watch the photo carefully. Call out the name when you think you know it.</p>
-    <p>Tip for teachers: pause anytime for group guesses.</p>
+    <p>Watch the photo and use the clues as they unlock.</p>
+    <ol class="hint-list">${clueItems}</ol>
   `;
+}
+
+function renderGuessPrompt() {
+  renderClues();
 }
 
 function renderSource(person) {
@@ -118,9 +151,9 @@ function revealOneTile() {
   }
   state.revealedTiles += 1;
 
-  if (state.revealedTiles === DETAIL_REVEAL_AT) {
-    showPersonInfo();
-    setStatus("Enough clues are visible. Can your team name this personality?");
+  if (state.revealedTiles % HINT_INTERVAL === 0) {
+    renderClues();
+    setStatus(`Clue ${state.revealedTiles / HINT_INTERVAL} unlocked.`);
   } else {
     setStatus(`${state.revealedTiles} of ${TILE_COUNT} tiles revealed.`);
   }

@@ -22,11 +22,12 @@ The game is plain HTML, CSS, and JavaScript. It has no login, backend, database,
 
 1. Press `Start`.
 2. The photo reveals in 16 random tiles.
-3. Kids guess the personality as more tiles appear.
-4. Press `Pause` to invite guesses.
-5. Press `Reveal Now` to show the answer immediately.
-6. Press `Next Personality` for another round.
-7. Press `Reset` to cover the current photo again.
+3. One clue unlocks after every 4 revealed tiles.
+4. Kids guess the personality as more tiles and clues appear.
+5. Press `Pause` to invite guesses.
+6. Press `Reveal Now` to show the answer immediately.
+7. Press `Next Personality` for another round.
+8. Press `Reset` to cover the current photo again.
 
 ## Data Source
 
