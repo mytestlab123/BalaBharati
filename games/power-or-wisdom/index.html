@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Power or Wisdom? | BalaBharati</title>
+    <meta name="description" content="A simple classroom Choice Duel game about wise everyday choices.">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../" aria-label="BalaBharati home">
+        <span class="brand-mark">BB</span>
+        <span>BalaBharati</span>
+      </a>
+      <nav class="top-nav" aria-label="Games">
+        <a href="../../#games">Games</a>
+        <a href="../quiz/">Quizzes</a>
+        <a href="../indian-personality-reveal/">Reveal</a>
+        <a href="../symbols/">Symbols</a>
+      </nav>
+    </header>
+
+    <main class="duel-shell">
+      <section class="duel-hero">
+        <p class="eyebrow">Choice Duel</p>
+        <h1>Power or Wisdom?</h1>
+        <p class="hero-text">Vote A or B, then reveal why wisdom is real strength.</p>
+      </section>
+
+      <section class="duel-board" aria-label="Power or Wisdom game">
+        <div class="situation-card">
+          <div class="round-meta">
+            <span id="roundCount">Round 1</span>
+            <span id="valueTag">Value</span>
+          </div>
+          <h2 id="situationTitle">Loading...</h2>
+          <p id="situationText">Please wait while the game data loads.</p>
+        </div>
+
+        <div class="choice-grid" aria-label="Vote choices">
+          <button class="choice-card power" id="powerBtn" type="button">
+            <span class="choice-key">A</span>
+            <span class="choice-label">Power Move</span>
+            <span class="choice-text" id="powerText">Loading...</span>
+            <span class="vote-count" id="powerVotes">0 votes</span>
+          </button>
+
+          <button class="choice-card wisdom" id="wisdomBtn" type="button">
+            <span class="choice-key">B</span>
+            <span class="choice-label">Wisdom Move</span>
+            <span class="choice-text" id="wisdomText">Loading...</span>
+            <span class="vote-count" id="wisdomVotes">0 votes</span>
+          </button>
+        </div>
+
+        <div class="controller-row" aria-label="Teacher controls">
+          <button id="revealBtn" type="button">Reveal Lesson</button>
+          <button id="nextBtn" type="button">Next Round</button>
+          <button id="resetVotesBtn" type="button">Reset Votes</button>
+          <button id="shuffleBtn" type="button">Shuffle Rounds</button>
+        </div>
+
+        <aside class="lesson-panel" id="lessonPanel" aria-live="polite">
+          <p class="lesson-kicker">Vote first</p>
+          <h2>Which move is stronger?</h2>
+          <p>Let kids choose A or B. Then reveal the lesson.</p>
+        </aside>
+      </section>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>

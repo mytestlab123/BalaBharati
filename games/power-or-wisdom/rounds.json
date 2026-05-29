@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Someone grabs your toy",
+    "situation": "You were playing nicely, and someone suddenly takes the toy from your hand.",
+    "powerMove": "Grab it back quickly.",
+    "wisdomMove": "Say, \"Let's take turns,\" and ask calmly.",
+    "value": "Dharma",
+    "lesson": "Self-control is strength",
+    "explanation": "The strong move is not always the loud move. Dharma means doing the right thing even when you feel upset.",
+    "valueLine": "Wisdom move: protect fairness without losing your calm."
+  },
+  {
+    "title": "A friend tells a lie",
+    "situation": "Your friend says something untrue, and everyone is looking at you.",
+    "powerMove": "Shout, \"That is a lie!\"",
+    "wisdomMove": "Tell the truth calmly and kindly.",
+    "value": "Satya",
+    "lesson": "Truth with kindness is stronger",
+    "explanation": "Satya means truth. Truth becomes more powerful when we speak it with care, not anger.",
+    "valueLine": "Wisdom move: be honest without trying to hurt someone."
+  },
+  {
+    "title": "You lose a game",
+    "situation": "Your team loses, and you feel disappointed.",
+    "powerMove": "Blame someone else.",
+    "wisdomMove": "Say, \"Good game. I will practice.\"",
+    "value": "Dhairya",
+    "lesson": "Courage keeps learning",
+    "explanation": "Dhairya means courage and patience. A brave person can lose, learn, and try again.",
+    "valueLine": "Wisdom move: use defeat as practice for the next round."
+  },
+  {
+    "title": "Someone is sitting alone",
+    "situation": "At lunch or class, you notice one child has no one to talk to.",
+    "powerMove": "Ignore them and stay with your group.",
+    "wisdomMove": "Invite them to join you.",
+    "value": "Seva",
+    "lesson": "Kindness makes the group stronger",
+    "explanation": "Seva means service. Small acts of kindness can make someone feel seen and welcome.",
+    "valueLine": "Wisdom move: include others when you have the chance."
+  },
+  {
+    "title": "You feel very angry",
+    "situation": "Something unfair happens, and angry words are ready to jump out.",
+    "powerMove": "React fast and say the first thing.",
+    "wisdomMove": "Pause, breathe, then speak.",
+    "value": "Shanti",
+    "lesson": "A calm mind is strong",
+    "explanation": "Shanti means peace. Pausing gives your mind time to choose the better action.",
+    "valueLine": "Wisdom move: calm first, words second."
+  },
+  {
+    "title": "You see a mess",
+    "situation": "After an activity, paper and pencils are scattered around the room.",
+    "powerMove": "Say, \"Not my mess,\" and walk away.",
+    "wisdomMove": "Pick up a few things and ask others to help.",
+    "value": "Seva",
+    "lesson": "Helping is quiet strength",
+    "explanation": "A helpful person does not wait for praise. Seva makes the shared space better for everyone.",
+    "valueLine": "Wisdom move: start with one useful action."
+  },
+  {
+    "title": "A smaller child makes a mistake",
+    "situation": "A younger child spills water and looks worried.",
+    "powerMove": "Laugh and call everyone to see.",
+    "wisdomMove": "Help clean it and say, \"It happens.\"",
+    "value": "Daya",
+    "lesson": "Compassion protects dignity",
+    "explanation": "Daya means compassion. Real strength helps people feel safe after a mistake.",
+    "valueLine": "Wisdom move: correct the problem without shaming the person."
+  },
+  {
+    "title": "You can copy homework",
+    "situation": "You forgot one answer, and a friend offers to show you theirs.",
+    "powerMove": "Copy it so you look smart.",
+    "wisdomMove": "Try your best and ask for help after class.",
+    "value": "Satya",
+    "lesson": "Honest effort builds real confidence",
+    "explanation": "Satya also means being honest with yourself. Copying may feel easy, but learning makes you stronger.",
+    "valueLine": "Wisdom move: choose learning over looking perfect."
+  },
+  {
+    "title": "Two friends are arguing",
+    "situation": "Both friends want you to take their side immediately.",
+    "powerMove": "Pick the louder friend.",
+    "wisdomMove": "Listen to both and help them calm down.",
+    "value": "Viveka",
+    "lesson": "Wise thinking sees more clearly",
+    "explanation": "Viveka means discernment. It helps us pause, listen, and choose what is fair.",
+    "valueLine": "Wisdom move: understand before deciding."
+  },
+  {
+    "title": "You win first place",
+    "situation": "You did very well, and everyone is clapping.",
+    "powerMove": "Say, \"I am better than all of you.\"",
+    "wisdomMove": "Thank your team, teacher, and practice.",
+    "value": "Vinaya",
+    "lesson": "Humility keeps success bright",
+    "explanation": "Vinaya means humility. A humble winner can celebrate without making others feel small.",
+    "valueLine": "Wisdom move: enjoy success with gratitude."
+  }
+]

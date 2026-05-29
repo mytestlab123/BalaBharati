@@ -19,28 +19,24 @@ Current live MVP:
 15. Hindu symbol tile puzzles
 16. Hindu Symbols activity hub
 17. Great Indian Personality photo reveal game
+18. Power or Wisdom choice duel game
 
 Near next:
 
-1. Build `Power or Wisdom?`, a Choice Duel game for ages `6-12`:
-   - show one everyday situation card
-   - let kids vote `A = Power Move` or `B = Wisdom Move`
-   - reveal why wisdom is real strength
-   - teach one value per round: Dharma, Viveka, Shanti, Satya, Seva
-2. Review every quiz for child-safe, humble, dharmic wording.
-3. Add more epic packs only when the wording is curated, not copied.
-4. Add 20-question packs for:
+1. Review every quiz for child-safe, humble, dharmic wording.
+2. Add more epic packs only when the wording is curated, not copied.
+3. Add 20-question packs for:
    - Hindu Symbols
    - Festivals
    - Great People
    - Sanskrit Words
-5. Add clearer quiz difficulty labels:
+4. Add clearer quiz difficulty labels:
    - Easy
    - 20 Questions
    - Fewer Hints
-6. Add small progress badges after quiz completion.
-7. Add a parent / teacher note page with one-line usage guidance.
-8. Improve mobile spacing on long answer choices.
+5. Add small progress badges after quiz completion.
+6. Add a parent / teacher note page with one-line usage guidance.
+7. Improve mobile spacing on long answer choices.
 
 Content direction:
 

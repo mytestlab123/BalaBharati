@@ -25,6 +25,7 @@ Current product shape:
 4. Hindu symbol tile puzzles
 5. Hindu Symbols activity hub
 6. Great Indian Personality photo reveal game
+7. Power or Wisdom choice duel game
 
 Current quiz packs:
 
@@ -99,6 +100,7 @@ Current quiz packs:
 - `games/quiz/values/`: Values quiz
 - `games/quiz/sanskrit/`: Sanskrit Words quiz
 - `games/indian-personality-reveal/`: Guess the Great Indian Personality photo reveal game
+- `games/power-or-wisdom/`: Power or Wisdom choice duel game
 - `games/hidden-objects/`: hidden objects game
 - `games/jigsaw/`: Hindu symbol tile puzzles
 - `games/symbols/`: Symbols activity hub
