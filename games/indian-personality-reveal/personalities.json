@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Bhagat Singh",
+    "years": "1907-1931",
+    "category": "Freedom fighter",
+    "contribution": [
+      "Became a powerful symbol of courage during India's freedom struggle.",
+      "Inspired many young people to think deeply about justice and independence.",
+      "Accepted great personal risk for the country at a very young age."
+    ],
+    "whyTheyMatter": "He reminds us that courage should be guided by love for the nation and a sense of duty.",
+    "imageUrl": "images/bhagat-singh.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lahore_conspiracy_case_poster_9th_Oct_193o_jindal_sunam_12x9_copy_(cropped).jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Public domain; verify full file metadata on the source page."
+  },
+  {
+    "name": "Subhas Chandra Bose",
+    "years": "1897-1945",
+    "category": "Freedom movement leader",
+    "contribution": [
+      "Led the Indian National Army during the freedom struggle.",
+      "Called on Indians to work boldly for independence.",
+      "Is remembered for strong leadership and patriotic spirit."
+    ],
+    "whyTheyMatter": "He shows how determination and organized effort can awaken national confidence.",
+    "imageUrl": "images/subhas-chandra-bose.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Subhas_Chandra_Bose_NRB.jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "Chandra Shekhar Azad",
+    "years": "1906-1931",
+    "category": "Freedom fighter",
+    "contribution": [
+      "Worked with other revolutionaries for India's independence.",
+      "Became known for bravery, discipline, and sacrifice.",
+      "Inspired young Indians to stand up for freedom."
+    ],
+    "whyTheyMatter": "He reminds us that bravery needs discipline and commitment.",
+    "imageUrl": "images/chandra-shekhar-azad.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Chandrasekhar_Azad.jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "Mangal Pandey",
+    "years": "1827-1857",
+    "category": "Freedom fighter",
+    "contribution": [
+      "Was a sepoy whose actions became linked with the 1857 uprising.",
+      "Is remembered as one of the early sparks of resistance to British rule.",
+      "His story is often taught as part of India's long freedom journey."
+    ],
+    "whyTheyMatter": "He helps us remember that the freedom movement had many early voices of courage.",
+    "imageUrl": "images/mangal-pandey.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Mangal_Pandey_1984_stamp_of_India.jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "Bal Gangadhar Tilak",
+    "years": "1856-1920",
+    "category": "National leader",
+    "contribution": [
+      "Helped make swaraj, or self-rule, a powerful public idea.",
+      "Used education, newspapers, and public festivals to awaken people.",
+      "Encouraged Indians to take pride in their culture and rights."
+    ],
+    "whyTheyMatter": "He shows how learning, culture, and public courage can strengthen society.",
+    "imageUrl": "images/bal-gangadhar-tilak.webp",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Bal_Gangadhar_Tilak_(1856-1920).webp",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "C.V. Raman",
+    "years": "1888-1970",
+    "category": "Scientist",
+    "contribution": [
+      "Discovered the Raman effect in physics.",
+      "Won the Nobel Prize in Physics in 1930.",
+      "Helped show that Indian science could shine on the world stage."
+    ],
+    "whyTheyMatter": "He reminds students that curiosity and careful observation can lead to great discovery.",
+    "imageUrl": "images/cv-raman.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Sir_CV_Raman.JPG",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "A.P.J. Abdul Kalam",
+    "years": "1931-2015",
+    "category": "Scientist and President",
+    "contribution": [
+      "Worked on India's space and missile programs.",
+      "Served as the 11th President of India.",
+      "Loved speaking with students and encouraging big dreams."
+    ],
+    "whyTheyMatter": "He shows that humility, learning, and service can go together.",
+    "imageUrl": "images/apj-abdul-kalam.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:A._P._J._Abdul_Kalam.jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "Subrahmanyan Chandrasekhar",
+    "years": "1910-1995",
+    "category": "Astrophysicist",
+    "contribution": [
+      "Studied how stars live and change over time.",
+      "Won the Nobel Prize in Physics in 1983.",
+      "His work helped scientists understand white dwarfs and black holes."
+    ],
+    "whyTheyMatter": "He reminds us that deep thinking and patience can reveal the wonders of the universe.",
+    "imageUrl": "images/subrahmanyan-chandrasekhar.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Subrahmanyan_Chandrasekhar.jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "Vikram Sarabhai",
+    "years": "1919-1971",
+    "category": "Space scientist",
+    "contribution": [
+      "Is widely remembered as the father of the Indian space program.",
+      "Helped build institutions for science, space, and education.",
+      "Believed space technology should help ordinary people."
+    ],
+    "whyTheyMatter": "He shows how science can become seva when it serves society.",
+    "imageUrl": "images/vikram-sarabhai.webp",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Dr_Vikram_Sarabhai_ISRO.webp",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "Sardar Vallabhbhai Patel",
+    "years": "1875-1950",
+    "category": "National leader",
+    "contribution": [
+      "Helped unite hundreds of princely states after independence.",
+      "Served as India's first Deputy Prime Minister and Home Minister.",
+      "Is remembered as the Iron Man of India."
+    ],
+    "whyTheyMatter": "He reminds us that unity, firmness, and duty can protect a nation.",
+    "imageUrl": "images/sardar-patel.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Sardar_patel_(cropped).jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "Rajendra Prasad",
+    "years": "1884-1963",
+    "category": "President and freedom movement leader",
+    "contribution": [
+      "Served as the first President of India.",
+      "Played an important role in public life during the freedom movement.",
+      "Helped guide the young republic with dignity."
+    ],
+    "whyTheyMatter": "He shows how quiet service and respect for institutions can strengthen a country.",
+    "imageUrl": "images/rajendra-prasad.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Rajendra_Prasad_(Indian_President),_signed_image_for_Walter_Nash_(NZ_Prime_Minister),_1958_(16017609534).jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "B.R. Ambedkar",
+    "years": "1891-1956",
+    "category": "Constitution maker and social reformer",
+    "contribution": [
+      "Chaired the drafting committee of the Indian Constitution.",
+      "Worked for social justice and dignity for all people.",
+      "Believed strongly in education, rights, and equality."
+    ],
+    "whyTheyMatter": "He reminds us that dharma includes fairness, dignity, and justice for every person.",
+    "imageUrl": "images/br-ambedkar.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Dr._Bhimrao_Ambedkar.jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "Rabindranath Tagore",
+    "years": "1861-1941",
+    "category": "Poet and educator",
+    "contribution": [
+      "Won the Nobel Prize in Literature in 1913.",
+      "Wrote Jana Gana Mana, India's national anthem.",
+      "Built learning spaces that valued creativity, nature, and culture."
+    ],
+    "whyTheyMatter": "He shows that art, education, and love for Bharat can inspire the world.",
+    "imageUrl": "images/rabindranath-tagore.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:1926_Rabindrath_Tagore.jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "J.R.D. Tata",
+    "years": "1904-1993",
+    "category": "Industrial leader and aviation pioneer",
+    "contribution": [
+      "Helped build Indian aviation and led the Tata group for many years.",
+      "Supported industry, technology, and professional excellence.",
+      "Is remembered for ethical leadership and long-term nation building."
+    ],
+    "whyTheyMatter": "He shows that business can serve society when it is guided by responsibility.",
+    "imageUrl": "images/jrd-tata.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:J.R.D._Tata_(1955).jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Wikimedia Commons hosted image; verify full file metadata on the source page."
+  },
+  {
+    "name": "Major Dhyan Chand",
+    "years": "1905-1979",
+    "category": "Sportsperson",
+    "contribution": [
+      "Became one of India's greatest hockey players.",
+      "Helped India win Olympic gold medals in hockey.",
+      "Is remembered for skill, teamwork, and dedication."
+    ],
+    "whyTheyMatter": "He reminds us that practice, focus, and team spirit can create excellence.",
+    "imageUrl": "images/dhyan-chand.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Dhyan_Chand_closeup.jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Public domain; verify full file metadata on the source page."
+  },
+  {
+    "name": "Swami Vivekananda",
+    "years": "1863-1902",
+    "category": "Spiritual leader",
+    "contribution": [
+      "Shared Vedanta and Hindu thought with audiences in India and abroad.",
+      "Inspired young people to build strength, character, and service.",
+      "Founded the Ramakrishna Mission for spiritual and social service."
+    ],
+    "whyTheyMatter": "He reminds us to combine confidence, compassion, learning, and seva.",
+    "imageUrl": "images/swami-vivekananda.jpg",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Swami_Vivekananda-1893-09-signed.jpg",
+    "imageSourceLabel": "Wikimedia Commons file page",
+    "licenseSourceNote": "Public domain; verify full file metadata on the source page."
+  }
+]

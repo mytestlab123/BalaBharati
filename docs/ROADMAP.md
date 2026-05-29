@@ -18,23 +18,29 @@ Current live MVP:
 14. hidden objects courtyard scene
 15. Hindu symbol tile puzzles
 16. Hindu Symbols activity hub
+17. Great Indian Personality photo reveal game
 
 Near next:
 
-1. Review every quiz for child-safe, humble, dharmic wording.
-2. Add more epic packs only when the wording is curated, not copied.
-3. Add 20-question packs for:
+1. Build `Power or Wisdom?`, a Choice Duel game for ages `6-12`:
+   - show one everyday situation card
+   - let kids vote `A = Power Move` or `B = Wisdom Move`
+   - reveal why wisdom is real strength
+   - teach one value per round: Dharma, Viveka, Shanti, Satya, Seva
+2. Review every quiz for child-safe, humble, dharmic wording.
+3. Add more epic packs only when the wording is curated, not copied.
+4. Add 20-question packs for:
    - Hindu Symbols
    - Festivals
    - Great People
    - Sanskrit Words
-4. Add clearer quiz difficulty labels:
+5. Add clearer quiz difficulty labels:
    - Easy
    - 20 Questions
    - Fewer Hints
-5. Add small progress badges after quiz completion.
-6. Add a parent / teacher note page with one-line usage guidance.
-7. Improve mobile spacing on long answer choices.
+6. Add small progress badges after quiz completion.
+7. Add a parent / teacher note page with one-line usage guidance.
+8. Improve mobile spacing on long answer choices.
 
 Content direction:
 
@@ -58,8 +64,7 @@ Future games:
 2. Bharat map challenge
 3. temple memory game
 4. Sanskrit word match
-5. values-based scenario quiz
-6. leaders / scientists / saints / symbols packs
-7. Tamil and English packs
-8. parent-editable data files
-9. simple celebration sounds and progress badges
+5. more leaders / scientists / saints / symbols packs
+6. Tamil and English packs
+7. parent-editable data files
+8. simple celebration sounds and progress badges

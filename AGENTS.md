@@ -24,6 +24,7 @@ Current product shape:
 3. hidden objects game
 4. Hindu symbol tile puzzles
 5. Hindu Symbols activity hub
+6. Great Indian Personality photo reveal game
 
 Current quiz packs:
 
@@ -97,6 +98,7 @@ Current quiz packs:
 - `games/quiz/buddha-life/`: Buddha Life quiz
 - `games/quiz/values/`: Values quiz
 - `games/quiz/sanskrit/`: Sanskrit Words quiz
+- `games/indian-personality-reveal/`: Guess the Great Indian Personality photo reveal game
 - `games/hidden-objects/`: hidden objects game
 - `games/jigsaw/`: Hindu symbol tile puzzles
 - `games/symbols/`: Symbols activity hub

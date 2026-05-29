@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Great Indian Personality | BalaBharati</title>
+  <link rel="stylesheet" href="../../assets/css/main.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../../" aria-label="BalaBharati home">
+      <span class="brand-mark">BB</span>
+      <span>BalaBharati</span>
+    </a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="../../#games">Games</a>
+      <a href="../quiz/">Quizzes</a>
+      <a href="../symbols/">Symbols</a>
+    </nav>
+  </header>
+
+  <main class="reveal-shell">
+    <section class="mini-hero">
+      <div>
+        <p class="eyebrow">Photo Reveal Game</p>
+        <h1>Guess the Great Indian Personality</h1>
+        <p class="hero-text">Reveal a hidden photo tile by tile. Guess the person before the full picture appears.</p>
+      </div>
+    </section>
+
+    <section class="game-layout" aria-label="Personality reveal game">
+      <div class="stage-panel">
+        <div class="game-status" id="gameStatus">Ready for the first personality.</div>
+        <div class="photo-stage" id="photoStage" aria-live="polite">
+          <img id="personImage" alt="">
+          <div class="tile-grid" id="tileGrid" aria-hidden="true"></div>
+        </div>
+        <div class="controls" aria-label="Game controls">
+          <button id="startBtn" type="button">Start</button>
+          <button id="pauseBtn" type="button">Pause</button>
+          <button id="revealBtn" type="button">Reveal Now</button>
+          <button id="nextBtn" type="button">Next Personality</button>
+          <button id="resetBtn" type="button">Reset</button>
+        </div>
+      </div>
+
+      <aside class="info-panel" aria-label="Personality information">
+        <p class="round-count" id="roundCount">Loading...</p>
+        <div id="personInfo" class="person-info">
+          <h2>Make your guess</h2>
+          <p>Start the reveal and invite everyone to guess as the photo becomes clearer.</p>
+        </div>
+        <details class="source-box" id="sourceBox">
+          <summary>Image attribution</summary>
+          <p id="sourceText">Attribution appears after the data loads.</p>
+        </details>
+      </aside>
+    </section>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
