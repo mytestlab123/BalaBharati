@@ -20,8 +20,8 @@ http://127.0.0.1:8010/games/power-or-wisdom/
 
 1. Show one situation card.
 2. Kids vote:
-   - `A = Power Move`
-   - `B = Wisdom Move`
+   - `A = Choice A`
+   - `B = Choice B`
 3. Click `Reveal Lesson`.
 4. Discuss the short value line.
 5. Click `Next Round`.
@@ -44,3 +44,5 @@ Each round has:
 - `valueLine`
 
 Keep text short, funny where natural, and non-preachy.
+
+The game randomizes whether the wisdom answer appears as `A` or `B` each round.

@@ -2,7 +2,8 @@ const state = {
   rounds: [],
   order: [],
   currentIndex: 0,
-  votes: { power: 0, wisdom: 0 },
+  choices: [],
+  votes: { a: 0, b: 0 },
   selected: null,
   revealed: false
 };
@@ -12,12 +13,12 @@ const els = {
   valueTag: document.getElementById("valueTag"),
   situationTitle: document.getElementById("situationTitle"),
   situationText: document.getElementById("situationText"),
-  powerBtn: document.getElementById("powerBtn"),
-  wisdomBtn: document.getElementById("wisdomBtn"),
-  powerText: document.getElementById("powerText"),
-  wisdomText: document.getElementById("wisdomText"),
-  powerVotes: document.getElementById("powerVotes"),
-  wisdomVotes: document.getElementById("wisdomVotes"),
+  choiceABtn: document.getElementById("choiceABtn"),
+  choiceBBtn: document.getElementById("choiceBBtn"),
+  choiceAText: document.getElementById("choiceAText"),
+  choiceBText: document.getElementById("choiceBText"),
+  choiceAVotes: document.getElementById("choiceAVotes"),
+  choiceBVotes: document.getElementById("choiceBVotes"),
   revealBtn: document.getElementById("revealBtn"),
   nextBtn: document.getElementById("nextBtn"),
   resetVotesBtn: document.getElementById("resetVotesBtn"),
@@ -43,14 +44,14 @@ function voteText(count) {
 }
 
 function renderVotes() {
-  els.powerVotes.textContent = voteText(state.votes.power);
-  els.wisdomVotes.textContent = voteText(state.votes.wisdom);
-  els.powerBtn.classList.toggle("selected", state.selected === "power");
-  els.wisdomBtn.classList.toggle("selected", state.selected === "wisdom");
+  els.choiceAVotes.textContent = voteText(state.votes.a);
+  els.choiceBVotes.textContent = voteText(state.votes.b);
+  els.choiceABtn.classList.toggle("selected", state.selected === "a");
+  els.choiceBBtn.classList.toggle("selected", state.selected === "b");
 }
 
 function resetVotes() {
-  state.votes = { power: 0, wisdom: 0 };
+  state.votes = { a: 0, b: 0 };
   state.selected = null;
   renderVotes();
 }
@@ -70,14 +71,18 @@ function renderRound() {
     return;
   }
   state.revealed = false;
+  state.choices = shuffle([
+    { key: "power", text: round.powerMove },
+    { key: "wisdom", text: round.wisdomMove }
+  ]);
   resetVotes();
 
   els.roundCount.textContent = `Round ${state.currentIndex + 1} of ${state.rounds.length}`;
   els.valueTag.textContent = round.value;
   els.situationTitle.textContent = round.title;
   els.situationText.textContent = round.situation;
-  els.powerText.textContent = round.powerMove;
-  els.wisdomText.textContent = round.wisdomMove;
+  els.choiceAText.textContent = state.choices[0].text;
+  els.choiceBText.textContent = state.choices[1].text;
   renderLessonPrompt();
 }
 
@@ -95,11 +100,14 @@ function revealLesson() {
   if (!round) {
     return;
   }
+  const wisdomChoiceIndex = state.choices.findIndex((choice) => choice.key === "wisdom");
+  const wisdomLetter = wisdomChoiceIndex === 0 ? "A" : "B";
   state.revealed = true;
   els.lessonPanel.classList.add("revealed");
   els.lessonPanel.innerHTML = `
     <p class="lesson-kicker">${round.value}</p>
     <h2>${round.lesson}</h2>
+    <p><strong>Wisdom choice: ${wisdomLetter}</strong></p>
     <p>${round.explanation}</p>
     <p class="value-line">${round.valueLine}</p>
   `;
@@ -134,13 +142,13 @@ async function init() {
   } catch (error) {
     els.situationTitle.textContent = "Game data missing";
     els.situationText.textContent = error.message;
-    els.powerText.textContent = "Try again later";
-    els.wisdomText.textContent = "Check rounds.json";
+    els.choiceAText.textContent = "Try again later";
+    els.choiceBText.textContent = "Check rounds.json";
   }
 }
 
-els.powerBtn.addEventListener("click", () => addVote("power"));
-els.wisdomBtn.addEventListener("click", () => addVote("wisdom"));
+els.choiceABtn.addEventListener("click", () => addVote("a"));
+els.choiceBBtn.addEventListener("click", () => addVote("b"));
 els.revealBtn.addEventListener("click", revealLesson);
 els.nextBtn.addEventListener("click", nextRound);
 els.resetVotesBtn.addEventListener("click", resetVotes);

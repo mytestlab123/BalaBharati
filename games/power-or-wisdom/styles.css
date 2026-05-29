@@ -95,12 +95,12 @@
   transform: translateY(-2px);
 }
 
-.choice-card.power {
+.choice-card.option-a {
   background: #fff3df;
   border-color: #df7a2e;
 }
 
-.choice-card.wisdom {
+.choice-card.option-b {
   background: #eaf6f1;
   border-color: #087c7c;
 }
@@ -128,7 +128,7 @@
   text-transform: uppercase;
 }
 
-.wisdom .choice-label {
+.option-b .choice-label {
   color: #075d5d;
 }
 
