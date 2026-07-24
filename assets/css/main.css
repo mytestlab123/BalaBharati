@@ -448,24 +448,6 @@ h3 {
   font-size: clamp(1.45rem, 5vw, 2.3rem);
 }
 
-.question-image {
-  display: flex;
-  justify-content: center;
-  margin: 0 0 18px;
-  padding: 10px;
-  border: 2px solid var(--line);
-  border-radius: 8px;
-  background: #fff8df;
-}
-
-.question-image img {
-  display: block;
-  width: 118px;
-  height: 118px;
-  border-radius: 8px;
-  object-fit: cover;
-}
-
 .answers {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
@@ -794,11 +776,6 @@ h3 {
   .play-panel,
   .game-header {
     padding: 16px;
-  }
-
-  .question-image img {
-    width: 92px;
-    height: 92px;
   }
 
   .hotspot {
