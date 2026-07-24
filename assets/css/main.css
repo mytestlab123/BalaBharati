@@ -449,10 +449,8 @@ h3 {
 }
 
 .question-image {
-  display: grid;
-  grid-template-columns: 118px minmax(0, 1fr);
-  align-items: center;
-  gap: 14px;
+  display: flex;
+  justify-content: center;
   margin: 0 0 18px;
   padding: 10px;
   border: 2px solid var(--line);
@@ -466,12 +464,6 @@ h3 {
   height: 118px;
   border-radius: 8px;
   object-fit: cover;
-}
-
-.question-image figcaption {
-  color: var(--ink);
-  font-size: 1.15rem;
-  font-weight: 900;
 }
 
 .answers {
@@ -802,10 +794,6 @@ h3 {
   .play-panel,
   .game-header {
     padding: 16px;
-  }
-
-  .question-image {
-    grid-template-columns: 92px minmax(0, 1fr);
   }
 
   .question-image img {
