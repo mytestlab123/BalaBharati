@@ -448,6 +448,32 @@ h3 {
   font-size: clamp(1.45rem, 5vw, 2.3rem);
 }
 
+.question-image {
+  display: grid;
+  grid-template-columns: 118px minmax(0, 1fr);
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 18px;
+  padding: 10px;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  background: #fff8df;
+}
+
+.question-image img {
+  display: block;
+  width: 118px;
+  height: 118px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.question-image figcaption {
+  color: var(--ink);
+  font-size: 1.15rem;
+  font-weight: 900;
+}
+
 .answers {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
@@ -776,6 +802,15 @@ h3 {
   .play-panel,
   .game-header {
     padding: 16px;
+  }
+
+  .question-image {
+    grid-template-columns: 92px minmax(0, 1fr);
+  }
+
+  .question-image img {
+    width: 92px;
+    height: 92px;
   }
 
   .hotspot {
