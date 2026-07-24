@@ -512,6 +512,47 @@ h3 {
   color: #7e241d;
 }
 
+.scientist-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.scientist-card {
+  overflow: hidden;
+  border: 2px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.scientist-card img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  filter: sepia(0.12) saturate(0.9);
+}
+
+.scientist-card figcaption {
+  padding: 8px;
+  color: var(--ink);
+  font-size: 0.86rem;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.science-sources {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.science-sources summary {
+  cursor: pointer;
+  color: var(--blue);
+  font-weight: 900;
+}
+
 .scene-wrap {
   position: relative;
   overflow: hidden;
@@ -706,6 +747,10 @@ h3 {
 
   .game-grid {
     grid-template-columns: 1fr;
+  }
+
+  .scientist-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .news-grid {

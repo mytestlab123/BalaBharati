@@ -620,6 +620,71 @@ const quizSets = {
       }
     ]
   },
+  "science-connections": {
+    storageKey: "balabharati-science-connections-best",
+    questions: [
+      {
+        question: "Which scientist from Bharat gave us the name behind Bose-Einstein statistics?",
+        choices: ["Satyendra Nath Bose", "C. V. Raman", "Vikram Sarabhai", "Anna Mani"],
+        answer: "Satyendra Nath Bose",
+        success: "Correct. Bose found a new way to count tiny light particles. Einstein translated his 1924 paper and developed the idea further."
+      },
+      {
+        question: "Which scientist made important early experiments with microwaves and wireless signals?",
+        choices: ["Jagadish Chandra Bose", "Meghnad Saha", "Janaki Ammal", "Srinivasa Ramanujan"],
+        answer: "Jagadish Chandra Bose",
+        success: "Yes. Jagadish Chandra Bose made early microwave experiments. Wireless science grew through the work of many inventors in different countries."
+      },
+      {
+        question: "The Raman effect helps scientists study what happens when light passes through a material. Who discovered it?",
+        choices: ["C. V. Raman", "A. P. J. Abdul Kalam", "Vikram Sarabhai", "Satyendra Nath Bose"],
+        answer: "C. V. Raman",
+        success: "Right. C. V. Raman discovered the Raman effect and received the 1930 Nobel Prize in Physics."
+      },
+      {
+        question: "Which scientist helped explain how the heat and light of stars can be studied?",
+        choices: ["Meghnad Saha", "Jagadish Chandra Bose", "Anna Mani", "Janaki Ammal"],
+        answer: "Meghnad Saha",
+        success: "Correct. Meghnad Saha's ionisation idea helped astronomers learn about conditions inside stars."
+      },
+      {
+        question: "Which scientist studied how very massive stars change and end?",
+        choices: ["Subrahmanyan Chandrasekhar", "Srinivasa Ramanujan", "C. V. Raman", "Vikram Sarabhai"],
+        answer: "Subrahmanyan Chandrasekhar",
+        success: "Yes. Chandrasekhar studied the lives of stars and later received the 1983 Nobel Prize in Physics."
+      },
+      {
+        question: "Which botanist from Bharat used plant science to help improve crops, including sugarcane?",
+        choices: ["Janaki Ammal", "Anna Mani", "Satyendra Nath Bose", "A. P. J. Abdul Kalam"],
+        answer: "Janaki Ammal",
+        success: "Correct. Janaki Ammal was a pioneering botanist and cytogeneticist. Her work connected plant genetics with useful crops."
+      },
+      {
+        question: "Who helped make weather instruments in India more dependable?",
+        choices: ["Anna Mani", "C. V. Raman", "Meghnad Saha", "Srinivasa Ramanujan"],
+        answer: "Anna Mani",
+        success: "Right. Anna Mani worked on weather instruments, helping India measure sunshine, wind, and other conditions more carefully."
+      },
+      {
+        question: "Which scientist is warmly remembered as the Missile Man of India and loved meeting students?",
+        choices: ["A. P. J. Abdul Kalam", "Jagadish Chandra Bose", "Vikram Sarabhai", "Subrahmanyan Chandrasekhar"],
+        answer: "A. P. J. Abdul Kalam",
+        success: "Yes. A. P. J. Abdul Kalam worked in India's space and defence programmes and encouraged children to dream and learn."
+      },
+      {
+        question: "Who is often called the father of India's space programme?",
+        choices: ["Vikram Sarabhai", "Meghnad Saha", "Janaki Ammal", "C. V. Raman"],
+        answer: "Vikram Sarabhai",
+        success: "Correct. Vikram Sarabhai helped build India's space programme so science could serve people through communication, weather, and learning."
+      },
+      {
+        question: "Which brilliant mathematician from Bharat sent a famous letter full of original ideas to G. H. Hardy?",
+        choices: ["Srinivasa Ramanujan", "Satyendra Nath Bose", "Anna Mani", "Jagadish Chandra Bose"],
+        answer: "Srinivasa Ramanujan",
+        success: "Great. Ramanujan and Hardy worked together across India and Britain. It is a wonderful example of ideas travelling and growing through collaboration."
+      }
+    ]
+  },
   sanskrit: {
     storageKey: "balabharati-sanskrit-best",
     questions: [
