@@ -682,6 +682,96 @@ const quizSets = {
         choices: ["Srinivasa Ramanujan", "Satyendra Nath Bose", "Anna Mani", "Jagadish Chandra Bose"],
         answer: "Srinivasa Ramanujan",
         success: "Great. Ramanujan and Hardy worked together across India and Britain. It is a wonderful example of ideas travelling and growing through collaboration."
+      },
+      {
+        question: "In 2025, what did ISRO's two SpaDeX satellites practise doing in space?",
+        choices: ["Docking with each other", "Landing on the Moon", "Photographing Mars", "Collecting ocean water"],
+        answer: "Docking with each other",
+        success: "SpaDeX demonstrated docking, undocking, and power transfer between two small satellites. These skills can help future space stations and spacecraft servicing.",
+        hint: "Ask the children to hold two pencils like spacecraft and slowly bring their tips together. Docking needs careful matching of position and speed.",
+        sourceUrl: "https://www.isro.gov.in/ISRO_EN/spadex_undocking_successful.html",
+        sourceLabel: "ISRO: SpaDeX docking and undocking"
+      },
+      {
+        question: "NISAR is an Earth-watching satellite created through a partnership between which two space agencies?",
+        choices: ["ISRO and NASA", "ISRO and JAXA", "NASA and ESA", "ESA and JAXA"],
+        answer: "ISRO and NASA",
+        success: "India and the United States worked together on NISAR. Shared science helps people study Earth's land, water, plants, and ice.",
+        hint: "Point out that one country does not have to build every part. Large science missions often succeed because teams share skills and equipment.",
+        sourceUrl: "https://science.nasa.gov/mission/nisar/",
+        sourceLabel: "NASA: NISAR mission"
+      },
+      {
+        question: "Why can NISAR's radar observe Earth's surface even through clouds and at night?",
+        choices: ["Radar sends and receives microwave signals", "It carries a giant torch", "It waits for clear weather", "It flies below every cloud"],
+        answer: "Radar sends and receives microwave signals",
+        success: "Radar uses microwave signals instead of visible light, so NISAR can collect useful observations through clouds and darkness.",
+        hint: "Compare radar with an echo: it sends out a signal and studies what returns. The signal is not the visible light used by an ordinary camera.",
+        sourceUrl: "https://science.nasa.gov/kids/earth/mission-nisar/",
+        sourceLabel: "NASA Kids: How NISAR works"
+      },
+      {
+        question: "In 2025, Shubhanshu Shukla became the first Indian to visit which place?",
+        choices: ["The International Space Station", "The Moon", "Mars", "The Sun-Earth L1 point"],
+        answer: "The International Space Station",
+        success: "Shubhanshu Shukla travelled to the International Space Station on Axiom Mission 4 and carried out science in microgravity.",
+        hint: "Explain that the ISS is a laboratory orbiting Earth. Astronauts live and work there while appearing to float in microgravity.",
+        sourceUrl: "https://www.isro.gov.in/ISRO_EN/Achievements_Department_of_Space_2025.html",
+        sourceLabel: "ISRO: Indian space achievements in 2025"
+      },
+      {
+        question: "Which Indian food seeds were sprouted during Shubhanshu Shukla's space experiments?",
+        choices: ["Methi and moong", "Mango and coconut", "Pepper and cardamom", "Apple and orange"],
+        answer: "Methi and moong",
+        success: "Methi and moong seeds were sprouted in microgravity to help researchers learn about growing food for future space crews.",
+        hint: "Ask what plants normally use gravity for. Space experiments help scientists see whether roots and shoots grow differently when gravity feels very weak.",
+        sourceUrl: "https://www.isro.gov.in/ISRO_EN/Progress_Axiom-4_mission_tentative_schedule_undocking_ISS_to_earth.html",
+        sourceLabel: "ISRO: Axiom-4 microgravity experiments"
+      },
+      {
+        question: "What does India's Aditya-L1 space observatory study?",
+        choices: ["The Sun", "The deep ocean", "Earthquakes", "Dinosaur fossils"],
+        answer: "The Sun",
+        success: "Aditya-L1 observes the Sun, including its outer atmosphere, flares, particles, and magnetic fields.",
+        hint: "Connect solar storms to life near Earth: activity on the Sun can affect satellites, radio communication, and other space technology.",
+        sourceUrl: "https://www.isro.gov.in/ISRO_EN/Aditya_L1.html",
+        sourceLabel: "ISRO: Aditya-L1 mission"
+      },
+      {
+        question: "What kind of technology is ISRO's VIKRAM3201?",
+        choices: ["A 32-bit microprocessor for space vehicles", "A telescope mirror", "A spacesuit fabric", "A Moon rover wheel"],
+        answer: "A 32-bit microprocessor for space vehicles",
+        success: "VIKRAM3201 is a Make-in-India processor designed to work reliably in the harsh conditions faced by launch vehicles.",
+        hint: "Describe a processor as a tiny instruction-following brain. A rocket's processor must keep working through vibration, heat changes, and radiation.",
+        sourceUrl: "https://www.isro.gov.in/vikram3201.html",
+        sourceLabel: "ISRO: VIKRAM3201 processor"
+      },
+      {
+        question: "What is the basic unit of information in a quantum computer called?",
+        choices: ["Qubit", "Pixel", "Bytecode", "Megahertz"],
+        answer: "Qubit",
+        success: "A qubit is a quantum bit. Scientists are still learning how to make larger quantum computers reliable and useful.",
+        hint: "A normal computer stores information in bits. Quantum computers use qubits, which follow the surprising rules of very tiny particles.",
+        sourceUrl: "https://dst.gov.in/national-quantum-mission-nqm",
+        sourceLabel: "India DST: National Quantum Mission"
+      },
+      {
+        question: "What do solar photovoltaic panels change sunlight into?",
+        choices: ["Electricity", "Plastic", "Wind", "Soil"],
+        answer: "Electricity",
+        success: "Solar cells convert light energy into electricity, giving us a renewable way to power homes and devices.",
+        hint: "Look for familiar examples together: rooftop panels, solar calculators, lamps, or spacecraft. All collect energy from light.",
+        sourceUrl: "https://www.energy.gov/articles/solar-classroom-lesson-plan",
+        sourceLabel: "US Department of Energy: Solar classroom"
+      },
+      {
+        question: "If an AI tool gives an important answer, what is the wisest next step?",
+        choices: ["Check it with reliable sources", "Believe it every time", "Share it before reading", "Hide who created it"],
+        answer: "Check it with reliable sources",
+        success: "AI can be useful, but it can also make mistakes. Careful learners check important claims and use technology responsibly.",
+        hint: "Try a simple rule: pause, check, then share. For important facts, compare the AI answer with a trusted book, teacher, or official website.",
+        sourceUrl: "https://www.unesco.org/en/articles/ai-competency-framework-students",
+        sourceLabel: "UNESCO: AI skills for students"
       }
     ]
   },
@@ -733,6 +823,9 @@ const bestScoreEl = document.getElementById("best-score");
 const questionTextEl = document.getElementById("question-text");
 const answersEl = document.getElementById("answers");
 const feedbackEl = document.getElementById("feedback");
+const explainMoreEl = document.getElementById("explain-more");
+const teachingHintEl = document.getElementById("teaching-hint");
+const learnMoreLinkEl = document.getElementById("learn-more-link");
 const nextButton = document.getElementById("next-button");
 const restartButton = document.getElementById("restart-button");
 
@@ -770,6 +863,10 @@ function renderQuestion() {
   answersEl.innerHTML = "";
   updateFeedback("", "Choose the best answer.");
 
+  if (explainMoreEl) {
+    explainMoreEl.hidden = true;
+  }
+
   shuffleChoices(current.choices).forEach((choice) => {
     const button = document.createElement("button");
     button.type = "button";
@@ -787,6 +884,7 @@ function handleAnswer(button, choice) {
 
   answered = true;
   const current = questions[currentIndex];
+  const explanation = current.success.replace(/^(Correct|Yes|Right|Great|Good|Well done)\.\s*/, "");
   const buttons = [...answersEl.querySelectorAll(".answer-button")];
 
   buttons.forEach((item) => {
@@ -800,10 +898,17 @@ function handleAnswer(button, choice) {
     score += 1;
     scoreEl.textContent = String(score);
     button.classList.add("correct");
-    updateFeedback("good", current.success);
+    updateFeedback("good", current.hint ? `Correct. ${explanation}` : current.success);
   } else {
     button.classList.add("wrong");
-    updateFeedback("bad", `Good try. The answer here is ${current.answer}.`);
+    updateFeedback("bad", `Good try. The answer is ${current.answer}. ${explanation}`);
+  }
+
+  if (explainMoreEl && current.hint && current.sourceUrl) {
+    teachingHintEl.textContent = current.hint;
+    learnMoreLinkEl.href = current.sourceUrl;
+    learnMoreLinkEl.textContent = current.sourceLabel || "Learn more from the source";
+    explainMoreEl.hidden = false;
   }
 
   nextButton.disabled = false;

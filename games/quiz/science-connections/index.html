@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Science Connections Quiz | BalaBharati</title>
-    <meta name="description" content="A child-friendly quiz about scientists from Bharat and science around the world">
+    <meta name="description" content="A child-friendly quiz about scientists from Bharat, recent space missions, and modern technology">
     <link rel="stylesheet" href="../../../assets/css/main.css">
   </head>
   <body data-quiz="science-connections">
@@ -25,8 +25,8 @@
       <section class="game-header">
         <p class="eyebrow">Science is a shared journey</p>
         <h1>Science Connections</h1>
-        <p class="lead">Meet scientists from Bharat. Their ideas joined a bigger world story of experiments, questions, teamwork, and discovery.</p>
-        <p class="story-note">Meet the photo grid, then play. Be proud of Bharat and humble about science: a new discovery often grows from earlier ideas and helps future people too.</p>
+        <p class="lead">Meet scientists from Bharat, explore recent space missions, and learn how modern technology works.</p>
+        <p class="story-note">Meet the photo grid, then play 20 questions. Be proud of Bharat and humble about science: discovery grows through questions, careful testing, and teamwork across the world.</p>
         <div class="scientist-grid" aria-label="Scientists in this quiz">
           <figure class="scientist-card"><img src="../../../assets/images/scientists/jagadish-chandra-bose.jpg" alt="Portrait of Jagadish Chandra Bose"><figcaption>J. C. Bose</figcaption></figure>
           <figure class="scientist-card"><img src="../../../assets/images/scientists/satyendra-nath-bose.jpg" alt="Portrait of Satyendra Nath Bose"><figcaption>S. N. Bose</figcaption></figure>
@@ -50,6 +50,11 @@
         <div class="question-block"><h2 id="question-text">Loading question...</h2></div>
         <div id="answers" class="answers" aria-label="Answer choices"></div>
         <div id="feedback" class="feedback">Choose the best answer.</div>
+        <aside id="explain-more" class="explain-more" aria-live="polite" hidden>
+          <h3>Explain it together</h3>
+          <p id="teaching-hint"></p>
+          <a id="learn-more-link" href="#" target="_blank" rel="noreferrer">Learn more from the source</a>
+        </aside>
         <div class="action-row">
           <button id="next-button" class="control-button primary" type="button" disabled>Next Question</button>
           <button id="restart-button" class="control-button secondary" type="button">Play Again</button>
@@ -60,6 +65,7 @@
           <summary>Photo and fact notes</summary>
           <p>Portraits are local copies from Wikimedia Commons. Some cards use a monument where a suitable free portrait was not available. The quiz facts are written for children and use careful credit: science develops through many people and earlier ideas.</p>
           <p>Sources: <a href="https://commons.wikimedia.org/wiki/File:J.C.Bose.JPG">J. C. Bose</a>, <a href="https://commons.wikimedia.org/wiki/File:SatyenBose1925.jpg">S. N. Bose</a>, <a href="https://commons.wikimedia.org/wiki/File:Sir_CV_Raman.JPG">C. V. Raman</a>, <a href="https://commons.wikimedia.org/wiki/File:Meghnad_Saha_Planetarium.jpg">Meghnad Saha</a>, <a href="https://commons.wikimedia.org/wiki/File:Subrahmanyan_Chandrasekhar.jpg">S. Chandrasekhar</a>, <a href="https://commons.wikimedia.org/wiki/File:Botanist_Janaki_Ammal.jpg">Janaki Ammal</a>, <a href="https://commons.wikimedia.org/wiki/File:Statue_of_Anna_Mani.jpg">Anna Mani</a>, <a href="https://commons.wikimedia.org/wiki/File:A._P._J._Abdul_Kalam.jpg">A. P. J. Abdul Kalam</a>, <a href="https://commons.wikimedia.org/wiki/File:Dr_Vikram_Sarabhai_ISRO.webp">Vikram Sarabhai</a>, and <a href="https://commons.wikimedia.org/wiki/File:Srinivasa_Ramanujan_-_OPC_-_2_(cleaned).jpg">Srinivasa Ramanujan</a>.</p>
+          <p>Recent science and technology facts: <a href="https://www.isro.gov.in/ISRO_EN/Achievements_Department_of_Space_2025.html">ISRO 2025 achievements</a>, <a href="https://science.nasa.gov/mission/nisar/">NASA-ISRO NISAR mission</a>, <a href="https://www.isro.gov.in/ISRO_EN/Progress_Axiom-4_mission_tentative_schedule_undocking_ISS_to_earth.html">Axiom-4 experiments</a>, <a href="https://www.isro.gov.in/ISRO_EN/Aditya_L1.html">Aditya-L1</a>, <a href="https://www.isro.gov.in/vikram3201.html">VIKRAM3201</a>, <a href="https://dst.gov.in/national-quantum-mission-nqm">National Quantum Mission</a>, <a href="https://www.energy.gov/articles/solar-classroom-lesson-plan">solar energy</a>, and <a href="https://www.unesco.org/en/articles/ai-competency-framework-students">responsible AI learning</a>.</p>
         </details>
       </section>
     </main>

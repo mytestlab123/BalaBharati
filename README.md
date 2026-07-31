@@ -26,11 +26,12 @@ The repo has a static GitHub Pages MVP with:
 11. Buddha Life quiz at `games/quiz/buddha-life/`
 12. Values quiz at `games/quiz/values/`
 13. Sanskrit Words quiz at `games/quiz/sanskrit/`
-14. hidden objects game at `games/hidden-objects/`
-15. Hindu symbol tile puzzles at `games/jigsaw/`
-16. Hindu Symbols hub at `games/symbols/`
-17. Personality Reveal game at `games/indian-personality-reveal/`
-18. Power or Wisdom choice duel at `games/power-or-wisdom/`
+14. Science Connections quiz at `games/quiz/science-connections/`
+15. hidden objects game at `games/hidden-objects/`
+16. Hindu symbol tile puzzles at `games/jigsaw/`
+17. Hindu Symbols hub at `games/symbols/`
+18. Personality Reveal game at `games/indian-personality-reveal/`
+19. Power or Wisdom choice duel at `games/power-or-wisdom/`
 
 ## MVP direction
 
@@ -78,6 +79,7 @@ Avoid heavy frameworks unless there is a strong need.
 - `games/quiz/buddha-life/`: Buddha Life quiz
 - `games/quiz/values/`: Values quiz
 - `games/quiz/sanskrit/`: Sanskrit Words quiz
+- `games/quiz/science-connections/`: scientists, recent space missions, and modern technology quiz
 - `games/indian-personality-reveal/`: Guess the Great Indian Personality photo reveal game
 - `games/power-or-wisdom/`: Power or Wisdom choice duel game
 - `games/hidden-objects/`: hidden objects scene
