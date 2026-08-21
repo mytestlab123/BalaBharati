@@ -775,6 +775,191 @@ const quizSets = {
       }
     ]
   },
+  "india-on-15-august": {
+    storageKey: "balabharati-india-on-15-august-best",
+    questions: [
+      {
+        question: "What do Indians celebrate on 15 August?",
+        choices: ["Independence Day", "Republic Day", "Children's Day", "Earth Day"],
+        answer: "Independence Day",
+        success: "Correct. India became independent in 1947. The day remembers courage, sacrifice, and the work of many freedom fighters.",
+        hint: "Ask: what kind of India do we want to help build? A free country grows stronger when people learn, care for one another, and do their duties.",
+        sourceUrl: "https://www.india.gov.in/",
+        sourceLabel: "National Portal of India"
+      },
+      {
+        question: "In which year did India become independent?",
+        choices: ["1947", "1857", "1950", "2000"],
+        answer: "1947",
+        success: "Yes. Independence was a new beginning. India then had to build institutions, schools, laws, and opportunities for a huge, diverse country.",
+        hint: "A country is built over time. Independence was important, and so is the steady work people do every day afterwards.",
+        sourceUrl: "https://www.india.gov.in/",
+        sourceLabel: "National Portal of India"
+      },
+      {
+        question: "What is at the centre of the Indian flag?",
+        choices: ["The Ashoka Chakra", "A lotus", "A lion", "A star"],
+        answer: "The Ashoka Chakra",
+        success: "Right. The Ashoka Chakra has 24 spokes and reminds us to keep moving forward with effort and responsibility.",
+        hint: "The flag is treated with respect. Its symbols can remind us of courage, peace, growth, and doing what is right.",
+        sourceUrl: "https://www.mha.gov.in/en/commoncontent/flag-code-india-2002",
+        sourceLabel: "Ministry of Home Affairs: Flag Code"
+      },
+      {
+        question: "What is India's Constitution?",
+        choices: ["The country's guiding rulebook", "A national song", "A cricket tournament", "A type of money"],
+        answer: "The country's guiding rulebook",
+        success: "Correct. The Constitution explains important rights and duties and helps India's democracy work fairly.",
+        hint: "A good rulebook helps many different people live and work together with respect.",
+        sourceUrl: "https://legislative.gov.in/constitution-of-india/",
+        sourceLabel: "Legislative Department: Constitution of India"
+      },
+      {
+        question: "What does democracy mean in a simple way?",
+        choices: ["People choose representatives", "One person makes every rule", "Only children vote", "No rules are needed"],
+        answer: "People choose representatives",
+        success: "Yes. Citizens vote to choose representatives. India is the world's largest democracy.",
+        hint: "Democracy also needs listening, respectful disagreement, and responsibility from everyone.",
+        sourceUrl: "https://www.eci.gov.in/",
+        sourceLabel: "Election Commission of India"
+      },
+      {
+        question: "Which organisation launches many of India's space missions?",
+        choices: ["ISRO", "NPCI", "BCCI", "NABARD"],
+        answer: "ISRO",
+        success: "Great. ISRO's satellites and missions help with communication, weather, navigation, farming, and scientific research.",
+        hint: "Space work is not only about rockets. Satellites can help people understand weather, maps, forests, and disasters.",
+        sourceUrl: "https://www.isro.gov.in/",
+        sourceLabel: "ISRO"
+      },
+      {
+        question: "What was Chandrayaan-3 known for?",
+        choices: ["A soft landing near the Moon's south polar region", "Landing on Mars", "Building a space station", "Flying to the Sun"],
+        answer: "A soft landing near the Moon's south polar region",
+        success: "Correct. Chandrayaan-3 made a successful soft landing near the Moon's south polar region in 2023.",
+        hint: "The mission showed careful engineering, testing, teamwork, and the courage to keep learning.",
+        sourceUrl: "https://www.isro.gov.in/Chandrayaan3_New.html",
+        sourceLabel: "ISRO: Chandrayaan-3"
+      },
+      {
+        question: "What is UPI mainly used for?",
+        choices: ["Quick digital payments", "Growing crops", "Playing music", "Building roads"],
+        answer: "Quick digital payments",
+        success: "Yes. UPI lets people make bank-to-bank digital payments using a phone or another connected device.",
+        hint: "Digital payments should be used carefully: check the name and amount, and never share a PIN or OTP.",
+        sourceUrl: "https://www.npci.org.in/what-we-do/upi/product-overview",
+        sourceLabel: "NPCI: UPI overview"
+      },
+      {
+        question: "Which organisation developed UPI?",
+        choices: ["NPCI", "ISRO", "Doordarshan", "Indian Railways"],
+        answer: "NPCI",
+        success: "Right. NPCI builds shared payment systems that banks and people can use across India.",
+        hint: "A shared system can help many banks work together. Trust and safety are important whenever money moves digitally.",
+        sourceUrl: "https://www.npci.org.in/",
+        sourceLabel: "National Payments Corporation of India"
+      },
+      {
+        question: "What is a startup?",
+        choices: ["A young business trying a new idea", "A school exam", "A government holiday", "A kind of train"],
+        answer: "A young business trying a new idea",
+        success: "Correct. Startups can solve everyday problems, create jobs, and learn from mistakes as they grow.",
+        hint: "A useful business thinks about people, quality, safety, and fairness - not only quick success.",
+        sourceUrl: "https://www.startupindia.gov.in/",
+        sourceLabel: "Startup India"
+      },
+      {
+        question: "Which Indian company is known for making cars, buses, and trucks?",
+        choices: ["Tata Motors", "ISRO", "All India Radio", "NPCI"],
+        answer: "Tata Motors",
+        success: "Yes. Tata Motors is an Indian vehicle company. Manufacturing needs designers, technicians, suppliers, and many kinds of skilled workers.",
+        hint: "A vehicle is the work of a large team. Businesses can grow by making useful products and improving them over time.",
+        sourceUrl: "https://www.tatamotors.com/",
+        sourceLabel: "Tata Motors"
+      },
+      {
+        question: "What do Indian technology companies often help other businesses do?",
+        choices: ["Build software and digital services", "Change the weather", "Move the Moon", "Make every decision"],
+        answer: "Build software and digital services",
+        success: "Correct. Indian technology teams build software and provide digital services for people and organisations around the world.",
+        hint: "Technology is strongest when it solves real problems and protects people's privacy and safety.",
+        sourceUrl: "https://www.nasscom.in/knowledge-center",
+        sourceLabel: "NASSCOM Knowledge Center"
+      },
+      {
+        question: "What helps a business grow responsibly?",
+        choices: ["Trust, useful work, and fair dealing", "Making promises it cannot keep", "Ignoring customers", "Wasting materials"],
+        answer: "Trust, useful work, and fair dealing",
+        success: "Well done. Strong businesses earn trust by serving people, treating workers fairly, and improving their work.",
+        hint: "This is true for a shop, a startup, or a large company. Long-term trust is more valuable than a quick shortcut.",
+        sourceUrl: "https://www.startupindia.gov.in/",
+        sourceLabel: "Startup India"
+      },
+      {
+        question: "Which sport is India especially famous for winning Olympic medals in?",
+        choices: ["Field hockey", "Ice hockey", "Baseball", "American football"],
+        answer: "Field hockey",
+        success: "Right. India has a proud Olympic hockey history. Players and teams grow through practice, discipline, and teamwork.",
+        hint: "A medal is exciting, but good sportsmanship matters too: respect teammates, opponents, coaches, and rules.",
+        sourceUrl: "https://olympics.com/en/olympic-games",
+        sourceLabel: "Olympics: India at the Games"
+      },
+      {
+        question: "What quality helps an athlete improve after losing a match?",
+        choices: ["Practice and courage", "Blaming everyone", "Giving up at once", "Hiding the result"],
+        answer: "Practice and courage",
+        success: "Yes. A result is not the whole story. Athletes improve through practice, fitness, teamwork, and trying again.",
+        hint: "This lesson works for studies, art, games, and sports: learn from a mistake, then take the next small step.",
+        sourceUrl: "https://yas.nic.in/",
+        sourceLabel: "Ministry of Youth Affairs and Sports"
+      },
+      {
+        question: "What is Bollywood?",
+        choices: ["A name often used for Mumbai's Hindi film industry", "A national sport", "A space mission", "A payment system"],
+        answer: "A name often used for Mumbai's Hindi film industry",
+        success: "Correct. India has many film industries and languages. Cinema can tell stories, share music, and introduce cultures.",
+        hint: "Films are made by many people: writers, actors, camera teams, costume designers, musicians, editors, and more.",
+        sourceUrl: "https://filmsdivision.org/",
+        sourceLabel: "Films Division"
+      },
+      {
+        question: "What is one way Indian films can share culture?",
+        choices: ["Through stories, music, and languages", "By replacing every book", "By making everyone agree", "By stopping local art"],
+        answer: "Through stories, music, and languages",
+        success: "Yes. Stories and songs can help people discover different places, families, languages, and traditions.",
+        hint: "Enjoy films thoughtfully. The best stories can make us curious, kind, and ready to learn more.",
+        sourceUrl: "https://www.indiaculture.gov.in/",
+        sourceLabel: "Ministry of Culture"
+      },
+      {
+        question: "Which Indian art form uses hand gestures, rhythm, and storytelling?",
+        choices: ["Classical dance", "A traffic signal", "A bank account", "A satellite"],
+        answer: "Classical dance",
+        success: "Great. Indian classical and folk arts use movement, music, rhythm, and stories to keep traditions alive.",
+        hint: "Art is knowledge too. It carries imagination, history, language, and feeling from one generation to another.",
+        sourceUrl: "https://www.indiaculture.gov.in/",
+        sourceLabel: "Ministry of Culture"
+      },
+      {
+        question: "Why is India's diversity a strength?",
+        choices: ["People bring many languages, traditions, and ideas", "Everyone must be exactly the same", "Only one language can teach us", "Differences stop friendship"],
+        answer: "People bring many languages, traditions, and ideas",
+        success: "Correct. Respectful listening helps people learn from one another while sharing one country.",
+        hint: "Curiosity is respectful: learn a greeting, song, food story, or festival tradition from a friend or neighbour.",
+        sourceUrl: "https://www.india.gov.in/",
+        sourceLabel: "National Portal of India"
+      },
+      {
+        question: "What is one good way a child can help India's future?",
+        choices: ["Learn, help others, and act responsibly", "Wait for someone else to care", "Waste shared things", "Copy without understanding"],
+        answer: "Learn, help others, and act responsibly",
+        success: "Wonderful. Greatness is not only big achievements. Honesty, curiosity, kindness, and caring for shared spaces matter too.",
+        hint: "Choose one small action today: thank a helper, save water, read carefully, help a friend, or keep a public place clean.",
+        sourceUrl: "https://www.india.gov.in/",
+        sourceLabel: "National Portal of India"
+      }
+    ]
+  },
   sanskrit: {
     storageKey: "balabharati-sanskrit-best",
     questions: [
