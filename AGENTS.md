@@ -2,6 +2,12 @@
 
 This repo hosts a small static GitHub Pages site for Indian kids.
 
+## Bootstrap / Recovery
+
+For cold start, recovery, materially changed rules, or stale/incomplete context, read this file, `CONTEXT.md`, and the named Issue/PR. Read `PLANS.md` only when the current task needs its planning/history detail.
+
+For warm continuation, use the named Issue/PR, latest relevant authorized delta, and current HEAD. Do not reread the full repository context on every handoff.
+
 ## Project
 
 `Balabharati` = `Bal` (kids) + `Bharati` (Indian / Bharatiya).
