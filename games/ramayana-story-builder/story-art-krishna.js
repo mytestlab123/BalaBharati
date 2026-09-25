@@ -17,6 +17,8 @@ const stoneWall=()=>`<g opacity=".95"><rect y="0" width="320" height="224" fill=
 
 const devaki=(x,y,s=1)=>`<g transform="translate(${x} ${y}) scale(${s})"><path d="M-13-4L-16 16M13-4L16 16" stroke="${C.skin2}" stroke-width="8"/><path d="M-22-40Q0-53 22-40L28 7Q0 20-28 7Z" fill="${C.purple}"/><path d="M-20-39L17-5L25-18L-9-45Z" fill="${C.gold}"/><ellipse cy="-58" rx="17" ry="21" fill="${C.skin2}"/><path d="M-19-63Q-10-83 1-82Q18-79 20-61Q4-68-12-59Z" fill="#343b39"/><circle cy="-68" r="2.5" fill="${C.red}"/><path d="M-6-61h1M5-61h1" stroke="${C.ink}" stroke-width="2.4"/><path d="M-4-50q4 4 8 0" stroke="#765746" stroke-width="1.6" fill="none"/><path d="M-17-36L-29-18M17-36L29-18" stroke="${C.skin2}" stroke-width="8" stroke-linecap="round"/></g>`;
 
+const yashoda=(x,y,s=1)=>devaki(x,y,s).replace(C.purple,C.green).replace(C.gold,C.red);
+
 const vasudeva=(x,y,s=1,armsUp=false)=>`<g transform="translate(${x} ${y}) scale(${s})"><path d="M-12-4L-16 18M12-4L16 18" stroke="${C.skin}" stroke-width="9" stroke-linecap="round"/><path d="M-22-41Q0-54 22-41L27 7Q0 19-27 7Z" fill="${C.orange}"/><path d="M-17-60Q0-66 17-60L20-36Q0-23-20-36Z" fill="${C.skin}"/><ellipse cy="-60" rx="17" ry="20" fill="${C.skin}"/><path d="M-20-66Q0-84 20-66L14-60Q0-66-14-60Z" fill="#3e443f"/><path d="M-10-48Q0-43 10-48" stroke="#604536" stroke-width="3" fill="none"/><path d="M-6-63h1M5-63h1" stroke="${C.ink}" stroke-width="2.4"/>${armsUp?`<path d="M-18-40L-28-81M18-40L28-81" stroke="${C.skin}" stroke-width="9" stroke-linecap="round"/>`:`<path d="M-18-39L-30-22M18-39L30-22" stroke="${C.skin}" stroke-width="9" stroke-linecap="round"/>`}</g>`;
 
 const basketBaby=(x,y,s=1,glow=true)=>`<g transform="translate(${x} ${y}) scale(${s})">${glow?'<circle cy="-12" r="42" fill="#f8d77c" opacity=".28"/><circle cy="-12" r="30" fill="#fff0a9" opacity=".22"/>':''}<path d="M-37 4Q0 22 37 4L29 27Q0 40-29 27Z" fill="#b77a3e" stroke="#7d532f" stroke-width="3"/><path d="M-31 2Q0-15 31 2" fill="none" stroke="#d49a55" stroke-width="6"/><ellipse cy="-11" rx="14" ry="12" fill="${C.blue}"/><path d="M-23-4Q0 8 23-4V13Q0 25-23 13Z" fill="${C.gold}"/><path d="M-8-12h1M7-12h1" stroke="${C.ink}" stroke-width="2.2"/><path d="M-1-26q5-10 13-6q-2 9-10 12" fill="${C.green}"/><path d="M0-24q2-9 0-14" stroke="#7b5b38" stroke-width="2"/></g>`;
@@ -63,7 +65,7 @@ const art={
 },
 'krishna-gokul':()=>{
   let body=`<rect width="320" height="224" fill="#f7e8c8"/><circle cx="270" cy="43" r="23" fill="${C.gold}"/><path d="M0 169Q73 145 146 169T320 161V224H0Z" fill="#a9bc82"/><path d="M0 186Q73 168 146 186T320 178V224H0Z" fill="#8da86f"/>`;
-  body+=hut(250,176,.62)+cow(52,190,.7)+vasudeva(118,208,.78)+devaki(220,205,.78);
+  body+=hut(250,176,.62)+cow(52,190,.7)+vasudeva(118,208,.78)+yashoda(220,205,.78);
   body+=basketBaby(170,158,.88,true)+`<path d="M138 122Q170 99 202 122" fill="none" stroke="${C.gold}" stroke-width="4"/><path d="M197 116l10 7l-11 5" fill="${C.gold}"/>`;
   return svg(body,'#f7e8c8','Baby Krishna reaches peaceful Gokul safely');
 }
