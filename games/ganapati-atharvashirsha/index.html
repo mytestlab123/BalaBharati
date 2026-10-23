@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ganapati Atharvashirsha | BalaBharati</title>
+    <meta name="description" content="Learn the Ganapati Atharvashirsha in English with icons, a mind map, and a quiz">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="../../">
+        <span class="brand-mark">BB</span>
+        <span>BalaBharati</span>
+      </a>
+      <nav class="top-nav" aria-label="Games">
+        <a href="../quiz/">Quiz</a>
+        <a href="../symbols/">Symbols</a>
+      </nav>
+    </header>
+
+    <main class="game-shell">
+      <section class="game-header">
+        <p class="eyebrow">Learn a prayer</p>
+        <h1>🐘 Ganapati Atharvashirsha</h1>
+        <p class="lead">Read each part, tap the picture words, and collect a 🍬 modak for every part you learn!</p>
+        <div class="status-row" aria-live="polite">
+          <div class="pill">Modaks 🍬 <span id="modak-count">0</span>/<span id="modak-total">0</span></div>
+        </div>
+      </section>
+
+      <div class="ga-tabs" role="tablist">
+        <button class="ga-tab active" data-tab="learn" role="tab" type="button">📖 Learn</button>
+        <button class="ga-tab" data-tab="map" role="tab" type="button">🧠 Mind Map</button>
+        <a class="ga-tab" href="../quiz/ganapati-atharvashirsha/">❓ Quiz</a>
+      </div>
+
+      <section id="tab-learn" class="ga-panel">
+        <div id="verse-list" class="ga-verses"></div>
+      </section>
+
+      <section id="tab-map" class="ga-panel" hidden>
+        <p class="ga-hint">Tap a branch to jump to its verse.</p>
+        <div id="mind-map" class="ga-map"></div>
+      </section>
+
+      <div class="action-row">
+        <button id="reset-button" class="control-button secondary" type="button">Reset Modaks</button>
+        <a class="button secondary" href="../../">Home</a>
+      </div>
+    </main>
+
+    <script src="verses.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

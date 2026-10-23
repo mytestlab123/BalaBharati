@@ -1,4 +1,119 @@
 const quizSets = {
+  "ganapati-atharvashirsha": {
+    storageKey: "balabharati-ganapati-atharvashirsha-best",
+    questions: [
+      {
+        question: "Who is the Ganapati Atharvashirsha about?",
+        choices: [
+          "Lord Ganesha",
+          "Lord Hanuman",
+          "Lord Rama",
+          "Lord Krishna"
+        ],
+        answer: "Lord Ganesha",
+        success: "Yes! It is a prayer to Ganapati, our remover of obstacles."
+      },
+      {
+        question: "What do the first words 'Om Namaste Ganapataye' mean?",
+        choices: [
+          "Salutations to Ganapati",
+          "Good morning, friends",
+          "Let us eat modaks",
+          "Ganesha is sleeping"
+        ],
+        answer: "Salutations to Ganapati",
+        success: "Right. Namaste means we bow with respect."
+      },
+      {
+        question: "In 'Ritam vachmi, Satyam vachmi', what does Satyam mean?",
+        choices: [
+          "Truth",
+          "Sweet",
+          "Fast",
+          "Big"
+        ],
+        answer: "Truth",
+        success: "Correct. We promise to speak the truth."
+      },
+      {
+        question: "In the 'Ava' verse, what do we ask Ganesha to do?",
+        choices: [
+          "Protect us from all sides",
+          "Give us toys",
+          "Make it rain",
+          "Help us sleep"
+        ],
+        answer: "Protect us from all sides",
+        success: "Yes. Ava means protect: front, back, left, right, above and below."
+      },
+      {
+        question: "Which are the five elements in the prayer?",
+        choices: [
+          "Earth, water, fire, air, sky",
+          "Sun, moon, stars, clouds, rain",
+          "Red, blue, green, yellow, white",
+          "Lion, tiger, elephant, deer, mouse"
+        ],
+        answer: "Earth, water, fire, air, sky",
+        success: "Great! Bhumi, Apah, Anala, Anila and Nabhah."
+      },
+      {
+        question: "What is Ganesha's special seed sound in this prayer?",
+        choices: [
+          "Gam",
+          "Ram",
+          "Hum",
+          "Shrim"
+        ],
+        answer: "Gam",
+        success: "Yes. G + A + M = Gam. Om Gam Ganapataye Namah!"
+      },
+      {
+        question: "What does 'Ekadanta' mean?",
+        choices: [
+          "One tusk",
+          "Two ears",
+          "Four hands",
+          "Big tummy"
+        ],
+        answer: "One tusk",
+        success: "Correct. Eka means one and danta means tooth or tusk."
+      },
+      {
+        question: "Which animal is Ganesha's vehicle (mushaka)?",
+        choices: [
+          "Mouse",
+          "Peacock",
+          "Swan",
+          "Bull"
+        ],
+        answer: "Mouse",
+        success: "Yes! The little mouse carries the big Ganesha."
+      },
+      {
+        question: "What does 'Vighnanashine' tell us about Ganesha?",
+        choices: [
+          "He removes obstacles",
+          "He loves to dance",
+          "He lives in the sea",
+          "He rides a chariot"
+        ],
+        answer: "He removes obstacles",
+        success: "Right. Vighna means obstacle. Ganesha clears our path."
+      },
+      {
+        question: "How does the prayer start and end?",
+        choices: [
+          "With a peace prayer: Om Shantih Shantih Shantih",
+          "With a song about food",
+          "With a loud shout",
+          "With counting numbers"
+        ],
+        answer: "With a peace prayer: Om Shantih Shantih Shantih",
+        success: "Wonderful! We begin and end with wishes for peace."
+      }
+    ]
+  },
   "great-people": {
     storageKey: "balabharati-great-people-best",
     questions: [

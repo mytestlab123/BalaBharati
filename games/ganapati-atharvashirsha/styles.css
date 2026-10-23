@@ -1,0 +1,57 @@
+/* Ganapati Atharvashirsha page */
+.ga-tabs { display: flex; gap: 10px; flex-wrap: wrap; margin: 16px 0; }
+.ga-tab {
+  font: inherit; font-size: 1.1rem; font-weight: 700; padding: 12px 18px;
+  border-radius: 999px; border: 2px solid #e67e22; background: #fff7ec;
+  color: #8a3b00; cursor: pointer; text-decoration: none; min-height: 48px;
+}
+.ga-tab.active { background: #e67e22; color: #fff; }
+
+.ga-verses { display: grid; gap: 18px; }
+.ga-card {
+  background: #fffdf7; border: 2px solid #f3c58a; border-radius: 18px;
+  padding: 16px 18px; box-shadow: 0 4px 0 #f3c58a; scroll-margin-top: 80px;
+  transition: transform .2s;
+}
+.ga-card.done { border-color: #5aa469; box-shadow: 0 4px 0 #5aa469; background: #f4fbf3; }
+.ga-card.pulse { transform: scale(1.02); }
+.ga-card-head { display: flex; align-items: center; gap: 10px; }
+.ga-card-head h2 { margin: 0; font-size: 1.3rem; }
+.ga-num {
+  display: inline-grid; place-items: center; width: 34px; height: 34px;
+  border-radius: 50%; background: #e67e22; color: #fff; font-weight: 800;
+}
+.ga-icon { font-size: 1.8rem; }
+.ga-lines { margin: 12px 0; font-size: 1.2rem; line-height: 1.55; font-weight: 600; color: #4a2a0a; }
+.ga-lines p { margin: 2px 0; }
+
+.ga-chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.ga-chip {
+  font: inherit; display: inline-flex; align-items: center; gap: 6px;
+  padding: 8px 12px; border-radius: 14px; border: 2px dashed #e67e22;
+  background: #fff; cursor: pointer; min-height: 44px;
+}
+.ga-chip-icon { font-size: 1.4rem; }
+.ga-chip-word { font-weight: 700; }
+.ga-chip-mean { display: none; color: #2f6b3a; font-weight: 700; }
+.ga-chip.flipped { background: #eaf7ec; border-style: solid; border-color: #5aa469; }
+.ga-chip.flipped .ga-chip-word { display: none; }
+.ga-chip.flipped .ga-chip-mean { display: inline; }
+
+.ga-meaning { margin: 8px 0 12px; font-size: 1.05rem; }
+.ga-meaning summary { cursor: pointer; font-weight: 700; color: #8a3b00; }
+
+.ga-hint { text-align: center; font-weight: 600; }
+.ga-map { max-width: 640px; margin: 0 auto; }
+.ga-map svg { width: 100%; height: auto; }
+.ga-map-line { stroke: #f3c58a; stroke-width: 5; }
+.ga-map-centre { fill: #e67e22; }
+.ga-map-node circle { fill: #fff7ec; stroke: #e67e22; stroke-width: 3; transition: fill .2s; }
+.ga-map-node { cursor: pointer; outline: none; }
+.ga-map-node:hover circle, .ga-map-node:focus circle { fill: #ffe2bf; }
+.ga-map svg text { text-anchor: middle; dominant-baseline: middle; }
+.ga-map-emoji { font-size: 56px; }
+.ga-map-emoji.small { font-size: 34px; }
+.ga-map-title { font-size: 20px; font-weight: 800; fill: #fff; }
+.ga-map-label { font-size: 15px; font-weight: 800; fill: #4a2a0a; }
+.ga-map-sub { font-size: 12px; fill: #8a3b00; }
