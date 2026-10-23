@@ -32,6 +32,7 @@ The repo has a static GitHub Pages MVP with:
 17. Hindu Symbols hub at `games/symbols/`
 18. Personality Reveal game at `games/indian-personality-reveal/`
 19. Power or Wisdom choice duel at `games/power-or-wisdom/`
+20. Ganapati Atharvashirsha learn + mind map at `games/ganapati-atharvashirsha/` (quiz at `games/quiz/ganapati-atharvashirsha/`)
 
 ## MVP direction
 

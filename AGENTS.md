@@ -107,6 +107,8 @@ Current quiz packs:
 - `games/quiz/sanskrit/`: Sanskrit Words quiz
 - `games/indian-personality-reveal/`: Guess the Great Indian Personality photo reveal game
 - `games/power-or-wisdom/`: Power or Wisdom choice duel game
+- `games/ganapati-atharvashirsha/`: Ganapati Atharvashirsha learn cards + mind map (English transliteration only)
+- `games/quiz/ganapati-atharvashirsha/`: Ganapati Atharvashirsha quiz
 - `games/hidden-objects/`: hidden objects game
 - `games/jigsaw/`: Hindu symbol tile puzzles
 - `games/symbols/`: Symbols activity hub
